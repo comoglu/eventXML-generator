@@ -95,7 +95,7 @@ def create_magnitudes(event, origin, magnitudes, stations, event_id):
     # Create moment magnitude (Mw) based on the largest magnitude
     largest_mag = max(mag.mag for mag in event.magnitudes)
     scalar_moment = 10**(1.5 * largest_mag + 9.1)
-    mw_mag = create_moment_magnitude(scalar_moment, origin.resource_id, event_id)
+    mw_mag = create_moment_magnitude(scalar_moment, origin.resource_id, event_id, len(stations))
     event.magnitudes.append(mw_mag)
 
     # Set the moment magnitude as the preferred magnitude
@@ -373,13 +373,14 @@ def calculate_rupture_duration(scalar_moment):
     magnitude = (2/3) * (np.log10(scalar_moment) - 9.1)  # Moment magnitude
     return 10**(0.3 * magnitude - 0.774)  # Empirical relation for rupture duration
 
-def create_moment_magnitude(scalar_moment, origin_id, event_id):
+def create_moment_magnitude(scalar_moment, origin_id, event_id, station_count):
     mw = (2/3) * (np.log10(scalar_moment) - 9.1)
     mag = Magnitude()
     mag.mag = mw
     mag.magnitude_type = "Mw"
     mag.origin_id = origin_id
     mag.resource_id = f"magnitude/mw/{event_id}"
+    mag.station_count = station_count
     mag.creation_info = CreationInfo(agency_id=config['Agency']['id'], author=f"{config['Agency']['author_prefix']}automag@testtest", creation_time=UTCDateTime())
     return mag
 
