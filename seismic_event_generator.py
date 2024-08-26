@@ -162,8 +162,11 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
     magnitudes = []
     
     for i in range(num_mechanisms):
-        # Create a new origin for this focal mechanism
+        print(f"Creating focal mechanism {i+1}/{num_mechanisms}")
+        
+        # Create origin
         origin = Origin()
+        origin.resource_id = f"origin/focalmechanism/{event_id}/{i}"
         origin.time = time + np.random.normal(0, 1)  # Add some time variation
         origin.latitude = lat + np.random.normal(0, 0.01)
         origin.longitude = lon + np.random.normal(0, 0.01)
@@ -189,6 +192,7 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
             author="scautomt@testtest",
             creation_time=UTCDateTime()
         )
+        print(f"Created origin with resource_id: {origin.resource_id}")
         
         # Create focal mechanism
         fm = FocalMechanism()
@@ -223,6 +227,8 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
         # Create moment tensor
         mt = create_moment_tensor(scalar_moment, strike1, dip1, rake1, f"{event_id}/{i}")
         fm.moment_tensor = mt
+
+        print(f"Created focal mechanism with resource_id: {fm.resource_id}")
         
         # Calculate Mw from scalar moment
         mw = (2/3) * (np.log10(scalar_moment) - 9.1)
@@ -245,7 +251,12 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
         
         # Associate the origin with this focal mechanism
         fm.triggering_origin_id = origin.resource_id
-        
+
+        print(f"Created Mw magnitude: {mag_mw.mag}, associated with origin: {mag_mw.origin_id}")
+
+        # Explicitly link the Mw magnitude to the focal mechanism
+        fm.moment_tensor.moment_magnitude_id = mag_mw.resource_id
+
         focal_mechanisms.append((fm, origin))
         magnitudes.append(mag_mw)
     
@@ -437,22 +448,26 @@ def create_synthetic_event_with_multiple_origins(lat, lon, depth, initial_time, 
         create_magnitudes(event, origin, current_magnitudes, current_stations, event_id)
 
         if i == number_of_origins - 1:  # For the last origin
+            print("Creating focal mechanisms and associated Mw magnitudes")
             largest_mag = max(mag.mag for mag in event.magnitudes)
             scalar_moment = 10**(1.5 * largest_mag + 9.1)
             
-            # Generate multiple focal mechanisms
             focal_mechanisms_with_origins, mw_magnitudes = create_focal_mechanisms(
                 lat, lon, depth, current_time, scalar_moment, event_id,
                 focal_mechanism['strike1'], focal_mechanism['dip1'], focal_mechanism['rake1'],
                 num_mechanisms=3
             )
             
+            print(f"Created {len(focal_mechanisms_with_origins)} focal mechanisms and {len(mw_magnitudes)} Mw magnitudes")
+            
             for fm, origin in focal_mechanisms_with_origins:
                 event.focal_mechanisms.append(fm)
                 event.origins.append(origin)
+                print(f"Added focal mechanism {fm.resource_id} and origin {origin.resource_id} to event")
             
             # Add Mw magnitudes to the event
             event.magnitudes.extend(mw_magnitudes)
+            print(f"Added {len(mw_magnitudes)} Mw magnitudes to event")
             
             # Use the focal mechanism with the lowest misfit as the preferred one
             preferred_fm, preferred_origin = min(focal_mechanisms_with_origins, key=lambda x: x[0].misfit)
@@ -462,7 +477,10 @@ def create_synthetic_event_with_multiple_origins(lat, lon, depth, initial_time, 
             # Set the preferred magnitude to the Mw magnitude associated with the preferred focal mechanism
             preferred_mw = next(mag for mag in mw_magnitudes if mag.origin_id == preferred_origin.resource_id)
             event.preferred_magnitude_id = preferred_mw.resource_id
-
+            
+            print(f"Set preferred focal mechanism: {event.preferred_focal_mechanism_id}")
+            print(f"Set preferred origin: {event.preferred_origin_id}")
+            print(f"Set preferred magnitude: {event.preferred_magnitude_id}")
 
     return event
 
@@ -561,108 +579,106 @@ def calculate_azimuthal_gap(stations):
     gaps = np.append(gaps, 360 + azimuths[0] - azimuths[-1])
     return np.max(gaps)
 
+# Update the generate_synthetic_catalog_with_multiple_origins function
 def generate_synthetic_catalog_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism):
     event = create_synthetic_event_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism)
     catalog = Catalog([event])
     catalog.creation_info = CreationInfo(agency_id="GA", author="ObsPy QuakeML Generator", creation_time=UTCDateTime())
-    return catalog
+    return catalog, event
 
-
-if __name__ == "__main__":
+def main():
     # Event parameters
     lat = get_config_float('Event', 'latitude', -7.69)
     lon = get_config_float('Event', 'longitude', 125.88)
     depth = get_config_float('Event', 'depth', 10)
     time = UTCDateTime(config['Event']['time']) if config['Event']['time'] != 'now' else UTCDateTime.now()
     
-    # Specify magnitudes
+    # Specify magnitudes and focal mechanism
     magnitudes = {k: get_config_float('Magnitudes', k, 0) for k in config['Magnitudes']}
-    
-    # Specify focal mechanism
     focal_mechanism = {
-        "strike1": get_config_float('FocalMechanism', 'strike1', 0),
-        "dip1": get_config_float('FocalMechanism', 'dip1', 0),
-        "rake1": get_config_float('FocalMechanism', 'rake1', 0),
-        "strike2": get_config_float('FocalMechanism', 'strike2', 0),
-        "dip2": get_config_float('FocalMechanism', 'dip2', 0),
-        "rake2": get_config_float('FocalMechanism', 'rake2', 0)
+        f"{key}{i}": get_config_float('FocalMechanism', f'{key}{i}', 0)
+        for key in ['strike', 'dip', 'rake'] for i in [1, 2]
     }
     
-    # Configuration
+    # Configuration for station filtering
     inventory_path = config['Inventory']['path']
     min_distance = get_config_float('Inventory', 'min_distance', 0)
     max_distance = get_config_float('Inventory', 'max_distance', 50)
     
-    # Read inventory
+    # Read inventory and filter stations
     inventory = read_inventory(inventory_path)
-    
-    # Filter stations
     stations = filter_stations(inventory, lat, lon, min_distance, max_distance)
     
-    # Check if any stations were selected
     if not stations:
-        print("Error: No stations selected after filtering.")
-        print(f"Please check your filtering criteria: min_distance={min_distance}, max_distance={max_distance}")
+        print(f"Error: No stations selected after filtering. Check criteria: min_distance={min_distance}, max_distance={max_distance}")
         sys.exit(1)
     
     # Generate catalog with multiple origins
-    catalog = generate_synthetic_catalog_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism)
+    catalog, event = generate_synthetic_catalog_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism)
     
     # Write to file
     output_file = "synthetic_event_multiple_origins.xml"
     catalog.write(output_file, format="SC3ML")
     print(f"QuakeML file has been written to {output_file}")
 
-    # Print a summary
-    print("\nGenerated Event Summary:")
-    print(f"Number of Origins: {len(catalog[0].origins)}")
-    print(f"Initial Origin Time: {catalog[0].origins[0].time}")
-    print(f"Final Origin Time: {catalog[0].preferred_origin().time}")
-    print(f"Latitude: {catalog[0].preferred_origin().latitude}")
-    print(f"Longitude: {catalog[0].preferred_origin().longitude}")
-    print(f"Depth: {catalog[0].preferred_origin().depth / 1000} km")
-    print(f"Final Magnitude: {catalog[0].preferred_magnitude().mag:.2f} {catalog[0].preferred_magnitude().magnitude_type}")
-    print(f"Total Number of Stations: {len(stations)}")
-    print(f"Total Number of Picks: {len(catalog[0].picks)}")
-    
+    print_event_summary(event, stations)
+    print_network_summary(stations)
+    print_focal_mechanism_summary(event.focal_mechanisms[0])
+    print_magnitude_summary(event.magnitudes)
+    print_origin_times(event.origins)
 
-    # Print a summary of used networks and stations
+def print_event_summary(event, stations):
+    print("\nGenerated Event Summary:")
+    print(f"Number of Origins: {len(event.origins)}")
+    print(f"Initial Origin Time: {event.origins[0].time}")
+    print(f"Final Origin Time: {event.preferred_origin().time}")
+    print(f"Latitude: {event.preferred_origin().latitude:.4f}")
+    print(f"Longitude: {event.preferred_origin().longitude:.4f}")
+    print(f"Depth: {event.preferred_origin().depth / 1000:.2f} km")
+    print(f"Final Magnitude: {event.preferred_magnitude().mag:.2f} {event.preferred_magnitude().magnitude_type}")
+    print(f"Total Number of Stations: {len(stations)}")
+    print(f"Total Number of Picks: {len(event.picks)}")
+    print(f"Total origins: {len(event.origins)}")
+    print(f"Total focal mechanisms: {len(event.focal_mechanisms)}")
+    print(f"Total magnitudes: {len(event.magnitudes)}")
+    print(f"Final Azimuthal Gap: {event.preferred_origin().quality.azimuthal_gap:.2f} degrees")
+
+def print_network_summary(stations):
     print("\nUsed Networks and Stations:")
     network_station_count = {}
     for station in stations:
-        if station['network'] not in network_station_count:
-            network_station_count[station['network']] = 0
-        network_station_count[station['network']] += 1
+        network_station_count[station['network']] = network_station_count.get(station['network'], 0) + 1
     
     for network, count in network_station_count.items():
         print(f"Network {network}: {count} stations")
     
     print(f"\nTotal number of stations: {len(stations)}")
     print(f"Number of networks: {len(network_station_count)}")
- 
-    # Update the print statement for focal mechanism
-    if catalog[0].focal_mechanisms:
-        fm = catalog[0].focal_mechanisms[0]
+
+def print_focal_mechanism_summary(fm):
+    if fm:
         print(f"\nFocal Mechanism:")
-        print(f"Nodal Plane 1 (Strike, Dip, Rake): {fm.nodal_planes.nodal_plane_1.strike:.2f}, {fm.nodal_planes.nodal_plane_1.dip:.2f}, {fm.nodal_planes.nodal_plane_1.rake:.2f}")
-        print(f"Nodal Plane 2 (Strike, Dip, Rake): {fm.nodal_planes.nodal_plane_2.strike:.2f}, {fm.nodal_planes.nodal_plane_2.dip:.2f}, {fm.nodal_planes.nodal_plane_2.rake:.2f}")
+        print(f"Nodal Plane 1 (Strike, Dip, Rake): {fm.nodal_planes.nodal_plane_1.strike:.2f}, "
+              f"{fm.nodal_planes.nodal_plane_1.dip:.2f}, {fm.nodal_planes.nodal_plane_1.rake:.2f}")
+        print(f"Nodal Plane 2 (Strike, Dip, Rake): {fm.nodal_planes.nodal_plane_2.strike:.2f}, "
+              f"{fm.nodal_planes.nodal_plane_2.dip:.2f}, {fm.nodal_planes.nodal_plane_2.rake:.2f}")
         print(f"Moment Magnitude (Mw): {fm.moment_tensor.moment_magnitude_id}")
         print(f"Scalar Moment: {fm.moment_tensor.scalar_moment:.2e} N-m")
         
-        # Print moment tensor components
         mt = fm.moment_tensor.tensor
         print("\nMoment Tensor Components:")
         print(f"Mrr: {mt.m_rr:.2e}, Mtt: {mt.m_tt:.2e}, Mpp: {mt.m_pp:.2e}")
         print(f"Mrt: {mt.m_rt:.2e}, Mrp: {mt.m_rp:.2e}, Mtp: {mt.m_tp:.2e}")
-    
-    print(f"Final Azimuthal Gap: {catalog[0].preferred_origin().quality.azimuthal_gap:.2f} degrees")
 
-    # Print all magnitudes for verification
+def print_magnitude_summary(magnitudes):
     print("\nAll Magnitudes:")
-    for mag in catalog[0].magnitudes:
+    for mag in magnitudes:
         print(f"{mag.magnitude_type}: {mag.mag:.2f}")
 
-    # Print origin times for all origins
+def print_origin_times(origins):
     print("\nOrigin Times:")
-    for i, origin in enumerate(catalog[0].origins):
-        print(f"Origin {i+1}: {origin.time}")
+    for i, origin in enumerate(origins, 1):
+        print(f"Origin {i}: {origin.time}")
+
+if __name__ == "__main__":
+    main()
