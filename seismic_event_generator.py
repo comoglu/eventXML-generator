@@ -22,6 +22,18 @@ import configparser
 config = configparser.ConfigParser()
 config.read('config.ini')
 
+
+def create_resource_id(id_string):
+    # Remove any existing 'smi:' prefix to avoid nesting
+    id_string = id_string.replace('smi:', '')
+    
+    # Remove the agency prefix if it's already there
+    agency_prefix = f"{config['Agency']['id'].lower()}/"
+    if id_string.startswith(agency_prefix):
+        id_string = id_string[len(agency_prefix):]
+    
+    return f"smi:{config['Agency']['id'].lower()}/{id_string}"
+
 def get_config_float(section, key, fallback=None):
     try:
         return float(config[section][key])
@@ -52,14 +64,15 @@ def generate_event_id(agency_id, event_time):
         letter_value, remainder = divmod(letter_value, 26)
         letters = string.ascii_lowercase[remainder] + letters
     
-    return f"{agency_id}{current_year}{letters}"
+    return create_resource_id(f"event/{agency_id}{current_year}{letters}")
 
-def create_magnitude(mag_value, mag_type, origin_id, method_description, station_count, uncertainty=None):
+
+def create_magnitude(mag_value, mag_type, origin_id, method_description, station_count, event_id, magnitude_index, uncertainty=None):
     mag = Magnitude()
     mag.mag = mag_value
-    mag.magnitude_type = mag_type  # This line might cause the warning, but it's necessary
+    mag.magnitude_type = mag_type
     mag.origin_id = origin_id
-    mag.method_id = f"smi:local/method/{mag_type.lower()}"
+    mag.method_id = create_resource_id(f"method/{mag_type.lower()}")
     mag.station_count = station_count
     mag.evaluation_mode = "manual"
     mag.evaluation_status = "confirmed"
@@ -71,17 +84,18 @@ def create_magnitude(mag_value, mag_type, origin_id, method_description, station
         author=f"{config['Agency']['author_prefix']}olv@testtest",
         creation_time=UTCDateTime()
     )
+    mag.resource_id = create_resource_id(f"magnitude/{mag_type.lower()}/{event_id}/{magnitude_index}")
     return mag
 
 def create_magnitudes(event, origin, magnitudes, stations, event_id):
-    for mag_type, mag_value in magnitudes.items():
+    for i, (mag_type, mag_value) in enumerate(magnitudes.items()):
         # Add small random adjustment to magnitude
         adjusted_mag = mag_value + np.random.uniform(-0.2, 0.2)
         # Ensure magnitude doesn't exceed realistic values
         adjusted_mag = min(adjusted_mag, 9.5)  # 9.5 is about the maximum recorded magnitude
-        
+
         method_description = f"Network magnitude using {mag_type}"
-        mag = create_magnitude(adjusted_mag, mag_type, origin.resource_id, method_description, len(stations), uncertainty=0.1)
+        mag = create_magnitude(adjusted_mag, mag_type, origin.resource_id, method_description, len(stations), event_id, i, uncertainty=0.1)
         event.magnitudes.append(mag)
 
         for station in stations:
@@ -90,12 +104,13 @@ def create_magnitudes(event, origin, magnitudes, stations, event_id):
             sta_mag.mag = adjusted_mag + np.random.normal(0, get_config_float('Noise', 'station_magnitude_std', 0.2))
             sta_mag.magnitude_type = mag_type
             sta_mag.waveform_id = WaveformStreamID(network_code=station['network'], station_code=station['code'])
+            sta_mag.resource_id = create_resource_id(f"station_magnitude/{mag_type.lower()}/{event_id}/{i}/{station['code']}")
             event.station_magnitudes.append(sta_mag)
 
     # Create moment magnitude (Mw) based on the largest magnitude
     largest_mag = max(mag.mag for mag in event.magnitudes)
     scalar_moment = 10**(1.5 * largest_mag + 9.1)
-    mw_mag = create_moment_magnitude(scalar_moment, origin.resource_id, event_id, len(stations))
+    mw_mag = create_moment_magnitude(scalar_moment, origin.resource_id, event_id, len(stations), len(event.magnitudes))
     event.magnitudes.append(mw_mag)
 
     # Set the moment magnitude as the preferred magnitude
@@ -110,6 +125,7 @@ def create_pick(time, waveform_id, phase_hint, evaluation_mode="automatic"):
     pick.waveform_id = waveform_id
     pick.phase_hint = phase_hint
     pick.evaluation_mode = evaluation_mode
+    pick.resource_id = create_resource_id(f"pick/{waveform_id.get_seed_string()}/{phase_hint}/{time.timestamp}")
     pick.creation_info = CreationInfo(
         agency_id=config['Agency']['id'],
         author=f"{config['Agency']['author_prefix']}autopick@testtest",
@@ -125,12 +141,13 @@ def create_arrival(pick_id, phase, azimuth, distance, time_residual, time_weight
     arrival.distance = distance
     arrival.time_residual = time_residual
     arrival.time_weight = time_weight
-    arrival.earth_model_id = "smi:local/earthmodel/iasp91"
+    arrival.earth_model_id = create_resource_id("earthmodel/iasp91")
+    arrival.resource_id = create_resource_id(f"arrival/{pick_id}/{phase}")  # Added
     return arrival
 
 def create_focal_mechanism(strike1, dip1, rake1, strike2, dip2, rake2, scalar_moment, event_id):
     fm = FocalMechanism()
-    fm.resource_id = f"focalmechanism/{event_id}"
+    fm.resource_id = create_resource_id(f"focalmechanism/{event_id}")
     
     # Create nodal planes
     np1 = NodalPlane(strike=strike1, dip=dip1, rake=rake1)
@@ -151,8 +168,8 @@ def create_focal_mechanism(strike1, dip1, rake1, strike2, dip2, rake2, scalar_mo
     
     # Calculate moment magnitude
     mw = (2/3) * (np.log10(scalar_moment) - 9.1)
-    fm.moment_tensor.derived_origin_id = "smi:local/origin/initial"
-    fm.moment_tensor.moment_magnitude_id = f"smi:local/magnitude/mw/{mw:.2f}"
+    fm.moment_tensor.derived_origin_id = create_resource_id("origin/initial")
+    fm.moment_tensor.moment_magnitude_id = create_resource_id(f"magnitude/mw/{mw:.2f}")
     
     fm.creation_info = CreationInfo(agency_id=config['Agency']['id'], author=f"{config['Agency']['author_prefix']}autofm@testtest", creation_time=UTCDateTime())
     return fm, mw
@@ -171,7 +188,7 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
 
         # Create origin (existing code)
         origin = Origin()
-        origin.resource_id = f"origin/focalmechanism/{event_id}/{i}"
+        origin.resource_id = create_resource_id(f"origin/focalmechanism/{event_id}/{i}")
         origin.time = time + np.random.normal(0, 1)
         origin.latitude = lat + np.random.normal(0, 0.01)
         origin.longitude = lon + np.random.normal(0, 0.01)
@@ -200,7 +217,7 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
         
         # Create focal mechanism
         fm = FocalMechanism()
-        fm.resource_id = f"focalmechanism/{event_id}/{i}"
+        fm.resource_id = create_resource_id(f"focalmechanism/{event_id}/{i}")
         
         # Add random variations to the initial focal mechanism
         strike1 = initial_strike + np.random.uniform(-variation, variation)
@@ -242,26 +259,28 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
         mw = (2/3) * (np.log10(scalar_moment) - 9.1)
 
         # Create Mw magnitude
-        mag_mw = Magnitude()
+        mag_mw = create_magnitude(mw, "Mw", origin.resource_id, "Moment magnitude from focal mechanism", origin.quality.used_station_count, event_id, len(magnitudes) + i*2)
         mag_mw.mag = mw
         mag_mw.magnitude_type = "Mw"
         mag_mw.origin_id = origin.resource_id
-        mag_mw.method_id = "MT"
+        mag_mw.method_id = create_resource_id("method/MT")
         mag_mw.station_count = origin.quality.used_station_count
         mag_mw.azimuthal_gap = origin.quality.azimuthal_gap
         mag_mw.creation_info = origin.creation_info
-        mag_mw.resource_id = f"magnitude/mw/{event_id}/{i}"
+        mag_mw.resource_id = create_resource_id(f"magnitude/mw/{event_id}/{i}")
 
-        # Create new Mww magnitude linked to moment tensor
-        mag_mww = Magnitude()
-        mag_mww.mag = mw  # Using the same value as Mw for this example
+        mag_mww = create_magnitude(mw, "Mww", origin.resource_id, "W-phase moment magnitude", origin.quality.used_station_count, event_id, len(magnitudes) + i*2 + 1)
+
+        mag_mww.mag = mw
         mag_mww.magnitude_type = "Mww"
         mag_mww.origin_id = origin.resource_id
-        mag_mww.method_id = "wphase"
+        mag_mww.method_id = create_resource_id("method/wphase")
+
         mag_mww.station_count = origin.quality.used_station_count
         mag_mww.azimuthal_gap = origin.quality.azimuthal_gap
         mag_mww.creation_info = origin.creation_info
-        mag_mww.resource_id = f"magnitude/mww/{event_id}/{i}"
+        mag_mww.resource_id = create_resource_id(f"magnitude/mww/{event_id}/{i}")
+
 
         fm.creation_info = origin.creation_info
 
@@ -353,7 +372,7 @@ def create_moment_tensor(scalar_moment, strike, dip, rake, event_id):
     Create a MomentTensor object given the scalar moment and fault plane solution.
     """
     mt = MomentTensor()
-    mt.resource_id = f"momenttensor/{event_id}"
+    mt.resource_id = create_resource_id(f"momenttensor/{event_id}")
     mt.scalar_moment = scalar_moment
     
     # Convert to radians
@@ -394,17 +413,17 @@ def calculate_rupture_duration(scalar_moment):
     magnitude = (2/3) * (np.log10(scalar_moment) - 9.1)  # Moment magnitude
     return 10**(0.3 * magnitude - 0.774)  # Empirical relation for rupture duration
 
-def create_moment_magnitude(scalar_moment, origin_id, event_id, station_count):
+def create_moment_magnitude(scalar_moment, origin_id, event_id, station_count, magnitude_index):
     mw = (2/3) * (np.log10(scalar_moment) - 9.1)
     mag = Magnitude()
     mag.mag = mw
     mag.magnitude_type = "Mw"
     mag.origin_id = origin_id
-    mag.resource_id = f"magnitude/mw/{event_id}"
+    mag.resource_id = create_resource_id(f"magnitude/mw/{event_id}/{magnitude_index}")
+    mag.method_id = create_resource_id("method/mw")
     mag.station_count = station_count
     mag.creation_info = CreationInfo(agency_id=config['Agency']['id'], author=f"{config['Agency']['author_prefix']}automag@testtest", creation_time=UTCDateTime())
     return mag
-
 
 def filter_stations(inventory, event_lat, event_lon, min_distance, max_distance):
     filtered_stations = []
@@ -444,7 +463,7 @@ def create_synthetic_event_with_multiple_origins(lat, lon, depth, initial_time, 
     event.event_type = "earthquake"
     
     # Generate the event ID
-    agency_id = config['Agency']['id']
+    agency_id = config['Agency']['id_lowercase']
     event_id = generate_event_id(agency_id, initial_time.datetime)
     event.resource_id = event_id
 
@@ -602,10 +621,10 @@ def calculate_azimuthal_gap(stations):
     gaps = np.append(gaps, 360 + azimuths[0] - azimuths[-1])
     return np.max(gaps)
 
-# Update the generate_synthetic_catalog_with_multiple_origins function
 def generate_synthetic_catalog_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism):
     event = create_synthetic_event_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism)
     catalog = Catalog([event])
+    catalog.resource_id = create_resource_id("catalog/synthetic")
     catalog.creation_info = CreationInfo(agency_id="GA", author="ObsPy QuakeML Generator", creation_time=UTCDateTime())
     return catalog, event
 
