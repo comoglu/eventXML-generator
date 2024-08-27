@@ -164,6 +164,11 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
     for i in range(num_mechanisms):
         print(f"Creating focal mechanism {i+1}/{num_mechanisms}")
 
+        # Create origin (existing code remains the same)
+        origin = Origin()
+        origin.resource_id = f"origin/focalmechanism/{event_id}/{i}"
+
+
         # Create origin (existing code)
         origin = Origin()
         origin.resource_id = f"origin/focalmechanism/{event_id}/{i}"
@@ -247,6 +252,17 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
         mag_mw.creation_info = origin.creation_info
         mag_mw.resource_id = f"magnitude/mw/{event_id}/{i}"
 
+        # Create new Mww magnitude linked to moment tensor
+        mag_mww = Magnitude()
+        mag_mww.mag = mw  # Using the same value as Mw for this example
+        mag_mww.magnitude_type = "Mww"
+        mag_mww.origin_id = origin.resource_id
+        mag_mww.method_id = "wphase"
+        mag_mww.station_count = origin.quality.used_station_count
+        mag_mww.azimuthal_gap = origin.quality.azimuthal_gap
+        mag_mww.creation_info = origin.creation_info
+        mag_mww.resource_id = f"magnitude/mww/{event_id}/{i}"
+
         fm.creation_info = origin.creation_info
 
         # Calculate misfit
@@ -256,12 +272,14 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
         fm.triggering_origin_id = origin.resource_id
 
         print(f"Created Mw magnitude: {mag_mw.mag}, associated with origin: {mag_mw.origin_id}")
+        print(f"Created Mww magnitude: {mag_mww.mag}, associated with origin: {mag_mww.origin_id}")
 
-        # Explicitly link the Mw magnitude to the focal mechanism
-        fm.moment_tensor.moment_magnitude_id = mag_mw.resource_id
+
+        # Explicitly link the Mww magnitude to the focal mechanism's moment tensor
+        fm.moment_tensor.moment_magnitude_id = mag_mww.resource_id
 
         focal_mechanisms.append((fm, origin))
-        magnitudes.append(mag_mw)
+        magnitudes.extend([mag_mw, mag_mww])
 
     return focal_mechanisms, magnitudes
 
@@ -452,17 +470,17 @@ def create_synthetic_event_with_multiple_origins(lat, lon, depth, initial_time, 
         create_magnitudes(event, origin, current_magnitudes, current_stations, event_id)
 
         if i == number_of_origins - 1:  # For the last origin
-            print("Creating focal mechanisms and associated Mw magnitudes")
+            print("Creating focal mechanisms and associated Mw and Mww magnitudes")
             largest_mag = max(mag.mag for mag in event.magnitudes)
             scalar_moment = 10**(1.5 * largest_mag + 9.1)
 
-            focal_mechanisms_with_origins, mw_magnitudes = create_focal_mechanisms(
+            focal_mechanisms_with_origins, mw_mww_magnitudes = create_focal_mechanisms(
                 lat, lon, depth, current_time, scalar_moment, event_id,
                 focal_mechanism['strike1'], focal_mechanism['dip1'], focal_mechanism['rake1'],
                 num_mechanisms=3
             )
 
-            print(f"Created {len(focal_mechanisms_with_origins)} focal mechanisms and {len(mw_magnitudes)} Mw magnitudes")
+            print(f"Created {len(focal_mechanisms_with_origins)} focal mechanisms and {len(mw_mww_magnitudes)} magnitudes (Mw and Mww)")
 
             for fm, origin in focal_mechanisms_with_origins:
                 event.focal_mechanisms.append(fm)
@@ -470,23 +488,22 @@ def create_synthetic_event_with_multiple_origins(lat, lon, depth, initial_time, 
                 print(f"Added focal mechanism {fm.resource_id} and origin {origin.resource_id} to event")
                 print(f"Moment tensor linked to origin: {fm.moment_tensor.derived_origin_id}")
 
-            
-            # Add Mw magnitudes to the event
-            event.magnitudes.extend(mw_magnitudes)
-            print(f"Added {len(mw_magnitudes)} Mw magnitudes to event")
-            
+            # Add Mw and Mww magnitudes to the event
+            event.magnitudes.extend(mw_mww_magnitudes)
+            print(f"Added {len(mw_mww_magnitudes)} magnitudes (Mw and Mww) to event")
+
             # Use the focal mechanism with the lowest misfit as the preferred one
             preferred_fm, preferred_origin = min(focal_mechanisms_with_origins, key=lambda x: x[0].misfit)
             event.preferred_focal_mechanism_id = preferred_fm.resource_id
             event.preferred_origin_id = preferred_origin.resource_id
-            
-            # Set the preferred magnitude to the Mw magnitude associated with the preferred focal mechanism
-            preferred_mw = next(mag for mag in mw_magnitudes if mag.origin_id == preferred_origin.resource_id)
-            event.preferred_magnitude_id = preferred_mw.resource_id
-            
+
+            # Set the preferred magnitude to the Mww magnitude associated with the preferred focal mechanism
+            preferred_mww = next(mag for mag in mw_mww_magnitudes if mag.origin_id == preferred_origin.resource_id and mag.magnitude_type == "Mww")
+            event.preferred_magnitude_id = preferred_mww.resource_id
+
             print(f"Set preferred focal mechanism: {event.preferred_focal_mechanism_id}")
             print(f"Set preferred origin: {event.preferred_origin_id}")
-            print(f"Set preferred magnitude: {event.preferred_magnitude_id}")
+            print(f"Set preferred magnitude (Mww): {event.preferred_magnitude_id}")
 
     return event
 
