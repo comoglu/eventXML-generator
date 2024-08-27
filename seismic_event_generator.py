@@ -160,21 +160,20 @@ def create_focal_mechanism(strike1, dip1, rake1, strike2, dip2, rake2, scalar_mo
 def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, initial_strike, initial_dip, initial_rake, num_mechanisms=3, variation=15):
     focal_mechanisms = []
     magnitudes = []
-    
+
     for i in range(num_mechanisms):
         print(f"Creating focal mechanism {i+1}/{num_mechanisms}")
-        
-        # Create origin
+
+        # Create origin (existing code)
         origin = Origin()
         origin.resource_id = f"origin/focalmechanism/{event_id}/{i}"
-        origin.time = time + np.random.normal(0, 1)  # Add some time variation
+        origin.time = time + np.random.normal(0, 1)
         origin.latitude = lat + np.random.normal(0, 0.01)
         origin.longitude = lon + np.random.normal(0, 0.01)
-        origin.depth = depth * 1000 + np.random.normal(0, 500)  # Convert to meters and add variation
+        origin.depth = depth * 1000 + np.random.normal(0, 500)
         origin.depth_type = "from moment tensor inversion"
         origin.method_id = "FocalMechanism"
         origin.earth_model_id = "gemini-prem"
-        origin.resource_id = f"origin/focalmechanism/{event_id}/{i}"
         
         # Create origin quality
         origin.quality = OriginQuality(
@@ -227,12 +226,16 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
         # Create moment tensor
         mt = create_moment_tensor(scalar_moment, strike1, dip1, rake1, f"{event_id}/{i}")
         fm.moment_tensor = mt
+        
+        # Link moment tensor to the origin
+        fm.moment_tensor.derived_origin_id = origin.resource_id
 
         print(f"Created focal mechanism with resource_id: {fm.resource_id}")
-        
+        print(f"Linked moment tensor to origin: {origin.resource_id}")
+
         # Calculate Mw from scalar moment
         mw = (2/3) * (np.log10(scalar_moment) - 9.1)
-        
+
         # Create Mw magnitude
         mag_mw = Magnitude()
         mag_mw.mag = mw
@@ -243,12 +246,12 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
         mag_mw.azimuthal_gap = origin.quality.azimuthal_gap
         mag_mw.creation_info = origin.creation_info
         mag_mw.resource_id = f"magnitude/mw/{event_id}/{i}"
-        
+
         fm.creation_info = origin.creation_info
-        
+
         # Calculate misfit
         fm.misfit = calculate_misfit(fm, [])  # We don't have picks here, so passing an empty list
-        
+
         # Associate the origin with this focal mechanism
         fm.triggering_origin_id = origin.resource_id
 
@@ -259,7 +262,7 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
 
         focal_mechanisms.append((fm, origin))
         magnitudes.append(mag_mw)
-    
+
     return focal_mechanisms, magnitudes
 
 def calculate_misfit(focal_mechanism, picks):
@@ -452,19 +455,21 @@ def create_synthetic_event_with_multiple_origins(lat, lon, depth, initial_time, 
             print("Creating focal mechanisms and associated Mw magnitudes")
             largest_mag = max(mag.mag for mag in event.magnitudes)
             scalar_moment = 10**(1.5 * largest_mag + 9.1)
-            
+
             focal_mechanisms_with_origins, mw_magnitudes = create_focal_mechanisms(
                 lat, lon, depth, current_time, scalar_moment, event_id,
                 focal_mechanism['strike1'], focal_mechanism['dip1'], focal_mechanism['rake1'],
                 num_mechanisms=3
             )
-            
+
             print(f"Created {len(focal_mechanisms_with_origins)} focal mechanisms and {len(mw_magnitudes)} Mw magnitudes")
-            
+
             for fm, origin in focal_mechanisms_with_origins:
                 event.focal_mechanisms.append(fm)
                 event.origins.append(origin)
                 print(f"Added focal mechanism {fm.resource_id} and origin {origin.resource_id} to event")
+                print(f"Moment tensor linked to origin: {fm.moment_tensor.derived_origin_id}")
+
             
             # Add Mw magnitudes to the event
             event.magnitudes.extend(mw_magnitudes)
