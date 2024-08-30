@@ -6,33 +6,73 @@ import numpy as np
 from seiscomp import core, datamodel, io, math
 import configparser
 from glob import glob
+import datetime
+import string
 
 def load_config(config_file):
     config = configparser.ConfigParser()
     config.read(config_file)
     return config
 
+def generate_event_id(agency_id, event_time):
+    current_year = event_time.year
+    
+    # Calculate the fraction of the year that has passed
+    year_start = datetime.datetime(current_year, 1, 1)
+    year_fraction = (event_time - year_start).total_seconds() / (366 * 24 * 60 * 60)  # Using 366 to account for leap years
+    
+    # Convert the fraction to a base-26 number with 6 digits
+    letter_value = int(year_fraction * (26**6))
+    
+    # Convert the number to letters
+    letters = ""
+    for _ in range(6):
+        letter_value, remainder = divmod(letter_value, 26)
+        letters = string.ascii_lowercase[remainder] + letters
+    
+    return f"{agency_id}{current_year}{letters}"
+
+def seiscomp_time_to_datetime(sc_time):
+    """Convert a SeisComp Time object to a Python datetime object."""
+    time_str = sc_time.toString("%Y-%m-%d %H:%M:%S.%f")
+    return datetime.datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S.%f")
+
 def create_synthetic_event(config):
     ep = datamodel.EventParameters()
 
-    # Create Event
-    event = datamodel.Event.Create("synthetic_event")
+    # Get the agency ID from the config
+    agency_id = config['Agency']['id']
+
+    # Get the event time
+    if config['Event']['time'].lower() == 'now':
+        event_time = core.Time.GMT()
+    else:
+        event_time = core.Time.FromString(config['Event']['time'])
+
+    # Convert SeisComp Time to Python datetime
+    py_event_time = seiscomp_time_to_datetime(event_time)
+
+    # Generate the event ID
+    event_id = generate_event_id(agency_id, py_event_time)
+
+    # Create Event with the generated ID
+    event = datamodel.Event.Create(event_id)
     ep.add(event)
     event.setType(datamodel.EARTHQUAKE)
 
     # Set creation info
     creation_info = datamodel.CreationInfo()
-    creation_info.setAuthor(f"{config['Agency']['author_prefix']}@{config['Agency']['id']}")
-    creation_info.setAgencyID(config['Agency']['id'])
+    creation_info.setAuthor(f"{config['Agency']['author_prefix']}@{agency_id}")
+    creation_info.setAgencyID(agency_id)
     creation_info.setCreationTime(core.Time.GMT())
     event.setCreationInfo(creation_info)
 
     # Create multiple origins
-    origins = create_multiple_origins(config)
+    origins = create_multiple_origins(config, event_time)
     for origin in origins:
         ep.add(origin)
         event.add(datamodel.OriginReference(origin.publicID()))
-        
+
         # Create magnitudes for each origin
         mags = create_magnitudes(origin, config)
         for mag in mags:
@@ -64,16 +104,12 @@ def create_synthetic_event(config):
 
     return ep
 
-def create_multiple_origins(config):
+def create_multiple_origins(config, event_time):
     origins = []
     lat = float(config['Event']['latitude'])
     lon = float(config['Event']['longitude'])
     depth_km = float(config['Event']['depth'])
-    if config['Event']['time'].lower() == 'now':
-        origin_time = core.Time.GMT()
-    else:
-        origin_time = core.Time.FromString(config['Event']['time'])
-    
+
     num_origins = int(config['MultipleOrigins']['number_of_origins'])
     initial_station_count = int(config['MultipleOrigins']['initial_station_count'])
     station_increase = int(config['MultipleOrigins']['station_increase_per_origin'])
@@ -83,7 +119,7 @@ def create_multiple_origins(config):
 
     for i in range(num_origins):
         origin = datamodel.Origin.Create()
-        
+
         # Set latitude with uncertainty
         lat_value = lat + np.random.normal(0, float(config['Uncertainties']['origin_latitude']))
         lat_uncertainty = float(config['Uncertainties']['origin_latitude']) * (1 - i/num_origins)
@@ -98,9 +134,9 @@ def create_multiple_origins(config):
         depth_value = depth_km + np.random.normal(0, float(config['Uncertainties']['origin_depth']) / 1000)
         depth_uncertainty = float(config['Uncertainties']['origin_depth']) / 1000 * (1 - i/num_origins)
         origin.setDepth(datamodel.RealQuantity(depth_value, depth_uncertainty))
-        
-        # Set origin time (constant for all origins)
-        origin.setTime(datamodel.TimeQuantity(origin_time))
+
+        # Set origin time (use the provided event_time)
+        origin.setTime(datamodel.TimeQuantity(event_time))
 
         # Set creation time (incremental)
         creation_time = base_creation_time + core.TimeSpan(i * creation_time_increment)
