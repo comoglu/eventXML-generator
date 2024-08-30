@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.12" version="0.12">
+  <Inventory>
+    <sensor publicID="Sensor/20240809022910.526128.37" name="M8.AI45.HHE.2024.037.00.00.00" response="ResponsePAZ/20240809031617.948754.8">
+      <description>Trillium Compact 120s (BB)</description>
+      <model>Nanometrics Trillium Compact 120s (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240809022910.524658.18" name="M8.AI45.HHN.2024.037.00.00.00" response="ResponsePAZ/20240809031617.948754.8">
+      <description>Trillium Compact 120s (BB)</description>
+      <model>Nanometrics Trillium Compact 120s (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240809022910.527456.56" name="M8.AI45.HHZ.2024.037.00.00.00" response="ResponsePAZ/20240809031617.948754.8">
+      <description>Trillium Compact 120s (BB)</description>
+      <model>Nanometrics Trillium Compact 120s (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240724080438.677643.37" name="M8.AU52.HHE.2024.205.07.14.00" response="ResponsePAZ/20240809031617.948754.8">
+      <description>Trillium Compact 120s (BB)</description>
+      <model>Nanometrics Trillium Compact 120s (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240724080438.676032.18" name="M8.AU52.HHN.2024.205.07.14.00" response="ResponsePAZ/20240809031617.948754.8">
+      <description>Trillium Compact 120s (BB)</description>
+      <model>Nanometrics Trillium Compact 120s (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240724080438.678495.56" name="M8.AU52.HHZ.2024.205.07.14.00" response="ResponsePAZ/20240809031617.948754.8">
+      <description>Trillium Compact 120s (BB)</description>
+      <model>Nanometrics Trillium Compact 120s (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240327013439.408612.159" name="M8.MOGAR.HHE.2024.010.00.00.00" response="ResponsePAZ/20240809031617.968372.254">
+      <description>Trillium 120s PostHole (BB)</description>
+      <model>Nanometrics Trillium 120s PostHole (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"None"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240327013439.407715.139" name="M8.MOGAR.HHN.2024.010.00.00.00" response="ResponsePAZ/20240809031617.968372.254">
+      <description>Trillium 120s PostHole (BB)</description>
+      <model>Nanometrics Trillium 120s PostHole (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"None"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240327013439.40946.179" name="M8.MOGAR.HHZ.2024.010.00.00.00" response="ResponsePAZ/20240809031617.968372.254">
+      <description>Trillium 120s PostHole (BB)</description>
+      <model>Nanometrics Trillium 120s PostHole (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"None"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240724080438.694242.401" name="M8.ONGER.HHE.2024.206.07.42.00" response="ResponsePAZ/20240809031617.968372.254">
+      <description>Trillium 120s PostHole (BB)</description>
+      <model>Nanometrics Trillium 120s PostHole (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"None"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240724080438.693394.381" name="M8.ONGER.HHN.2024.206.07.42.00" response="ResponsePAZ/20240809031617.968372.254">
+      <description>Trillium 120s PostHole (BB)</description>
+      <model>Nanometrics Trillium 120s PostHole (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"None"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240724080438.695085.421" name="M8.ONGER.HHZ.2024.206.07.42.00" response="ResponsePAZ/20240809031617.968372.254">
+      <description>Trillium 120s PostHole (BB)</description>
+      <model>Nanometrics Trillium 120s PostHole (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"None"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240724080438.696959.463" name="M8.WATNG.HHE.2024.141.09.34.00" response="ResponsePAZ/20240809031617.968372.254">
+      <description>Trillium 120s PostHole (BB)</description>
+      <model>Nanometrics Trillium 120s PostHole (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"None"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240724080438.69608.443" name="M8.WATNG.HHN.2024.141.09.34.00" response="ResponsePAZ/20240809031617.968372.254">
+      <description>Trillium 120s PostHole (BB)</description>
+      <model>Nanometrics Trillium 120s PostHole (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"None"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20240724080438.697807.483" name="M8.WATNG.HHZ.2024.141.09.34.00" response="ResponsePAZ/20240809031617.968372.254">
+      <description>Trillium 120s PostHole (BB)</description>
+      <model>Nanometrics Trillium 120s PostHole (754 V/m/s)</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"None"}</remark>
+    </sensor>
+    <datalogger publicID="Datalogger/20240809022910.526083.36" name="M8.AI45.HHE.2024.037.00.00.00">
+      <digitizerModel>Guralp Minimus</digitizerModel>
+      <gain>409735</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20240809031617.949242.9 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949781.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240809022910.524561.17" name="M8.AI45.HHN.2024.037.00.00.00">
+      <digitizerModel>Guralp Minimus</digitizerModel>
+      <gain>409735</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20240809031617.949242.9 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949781.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240809022910.527406.55" name="M8.AI45.HHZ.2024.037.00.00.00">
+      <digitizerModel>Guralp Minimus</digitizerModel>
+      <gain>409735</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20240809031617.949242.9 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949781.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240724080438.677618.36" name="M8.AU52.HHE.2024.205.07.14.00">
+      <digitizerModel>Guralp Minimus</digitizerModel>
+      <gain>409735</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20240809031617.949242.9 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949781.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240724080438.67598.17" name="M8.AU52.HHN.2024.205.07.14.00">
+      <digitizerModel>Guralp Minimus</digitizerModel>
+      <gain>409735</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20240809031617.949242.9 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949781.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240724080438.67847.55" name="M8.AU52.HHZ.2024.205.07.14.00">
+      <digitizerModel>Guralp Minimus</digitizerModel>
+      <gain>409735</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20240809031617.949242.9 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949536.10 ResponseFIR/20240809031617.949781.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240327013439.408586.158" name="M8.MOGAR.HHE.2024.010.00.00.00">
+      <digitizerModel>Nanometrics Centaur</digitizerModel>
+      <gain>400000</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ/20240809031617.968532.255</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR/20220926025821.160492.10 ResponseFIR/20220926025821.16054.11 ResponseFIR/20220926025821.160584.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240327013439.407688.138" name="M8.MOGAR.HHN.2024.010.00.00.00">
+      <digitizerModel>Nanometrics Centaur</digitizerModel>
+      <gain>400000</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ/20240809031617.968532.255</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR/20220926025821.160492.10 ResponseFIR/20220926025821.16054.11 ResponseFIR/20220926025821.160584.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240327013439.409434.178" name="M8.MOGAR.HHZ.2024.010.00.00.00">
+      <digitizerModel>Nanometrics Centaur</digitizerModel>
+      <gain>400000</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ/20240809031617.968532.255</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR/20220926025821.160492.10 ResponseFIR/20220926025821.16054.11 ResponseFIR/20220926025821.160584.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240724080438.694217.400" name="M8.ONGER.HHE.2024.206.07.42.00">
+      <digitizerModel>Nanometrics Centaur</digitizerModel>
+      <gain>400000</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ/20240809031617.968532.255</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR/20220926025821.160492.10 ResponseFIR/20220926025821.16054.11 ResponseFIR/20220926025821.160584.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240724080438.693369.380" name="M8.ONGER.HHN.2024.206.07.42.00">
+      <digitizerModel>Nanometrics Centaur</digitizerModel>
+      <gain>400000</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ/20240809031617.968532.255</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR/20220926025821.160492.10 ResponseFIR/20220926025821.16054.11 ResponseFIR/20220926025821.160584.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240724080438.69506.420" name="M8.ONGER.HHZ.2024.206.07.42.00">
+      <digitizerModel>Nanometrics Centaur</digitizerModel>
+      <gain>400000</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ/20240809031617.968532.255</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR/20220926025821.160492.10 ResponseFIR/20220926025821.16054.11 ResponseFIR/20220926025821.160584.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240724080438.696934.462" name="M8.WATNG.HHE.2024.141.09.34.00">
+      <digitizerModel>Nanometrics Centaur</digitizerModel>
+      <gain>400000</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ/20240809031617.968532.255</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR/20220926025821.160492.10 ResponseFIR/20220926025821.16054.11 ResponseFIR/20220926025821.160584.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240724080438.696054.442" name="M8.WATNG.HHN.2024.141.09.34.00">
+      <digitizerModel>Nanometrics Centaur</digitizerModel>
+      <gain>400000</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ/20240809031617.968532.255</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR/20220926025821.160492.10 ResponseFIR/20220926025821.16054.11 ResponseFIR/20220926025821.160584.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20240724080438.697782.482" name="M8.WATNG.HHZ.2024.141.09.34.00">
+      <digitizerModel>Nanometrics Centaur</digitizerModel>
+      <gain>400000</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ/20240809031617.968532.255</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR/20220926025821.160492.10 ResponseFIR/20220926025821.16054.11 ResponseFIR/20220926025821.160584.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ/20240809031617.948754.8" name="ResponsePAZ/20240809031617.948754.8">
+      <type>A</type>
+      <gain>754.3</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>4.344928e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-392,0) (-1960,0) (-1490,1740) (-1490,-1740)</zeros>
+      <poles>(-0.03691,0.03702) (-0.03691,-0.03702) (-343,0) (-370,467) (-370,-467) (-836,1522) (-836,-1522) (-4900,4700) (-4900,-4700) (-6900,0) (-15000,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20240809031617.968372.254" name="ResponsePAZ/20240809031617.968372.254">
+      <type>A</type>
+      <gain>754.3</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>4.344928146e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-392,0) (-1960,0) (-1490,1740) (-1490,-1740)</zeros>
+      <poles>(-0.03691,0.03702) (-0.03691,-0.03702) (-343,0) (-370,467) (-370,-467) (-836,1522) (-836,-1522) (-4900,4700) (-4900,-4700) (-6900,0) (-15000,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20240809031617.968532.255" name="ResponsePAZ/20240809031617.968532.255">
+      <type>A</type>
+      <gain>0.9925419515</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>0</numberOfZeros>
+      <numberOfPoles>0</numberOfPoles>
+    </responsePAZ>
+    <responseFIR publicID="ResponseFIR/20240809031617.949242.9" name="ResponseFIR/20240809031617.949242.9">
+      <gain>1</gain>
+      <gainFrequency>0.005</gainFrequency>
+      <decimationFactor>256</decimationFactor>
+      <delay>0.5</delay>
+      <correction>0.5</correction>
+      <numberOfCoefficients>383</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>5.960912e-08 1.788274e-07 3.576547e-07 5.960912e-07 8.941368e-07 1.251792e-06 1.669055e-06 2.145928e-06 2.682411e-06 3.278502e-06 3.934202e-06 4.649512e-06 5.42443e-06 6.258958e-06 7.153095e-06 8.106841e-06 9.120196e-06 1.019316e-05 1.132573e-05 1.251792e-05 1.376971e-05 1.508111e-05 1.645212e-05 1.788274e-05 1.937296e-05 2.09228e-05 2.253225e-05 2.42013e-05 2.592997e-05 2.771824e-05 2.956612e-05 3.147362e-05 3.344072e-05 3.546743e-05 3.755375e-05 3.969968e-05 4.190521e-05 4.417036e-05 4.649512e-05 4.887948e-05 5.132345e-05 5.382704e-05 5.639023e-05 5.901303e-05 6.169544e-05 6.443746e-05 6.723909e-05 7.010033e-05 7.302118e-05 7.600163e-05 7.90417e-05 8.214137e-05 8.530065e-05 8.851955e-05 9.179805e-05 9.513616e-05 9.853388e-05 0.0001019912 0.0001055081 0.0001090847 0.0001127209 0.0001164166 0.000120172 0.000123987 0.0001278616 0.0001317958 0.0001357896 0.000139843 0.000143956 0.0001481287 0.0001523609 0.0001566528 0.0001610042 0.0001654153 0.000169886 0.0001744163 0.0001790062 0.0001836557 0.0001883648 0.0001931336 0.0001979619 0.0002028498 0.0002077974 0.0002128046 0.0002178713 0.0002229977 0.0002281837 0.0002334293 0.0002387345 0.0002440994 0.0002495238 0.0002550078 0.0002605515 0.0002661547 0.0002718176 0.0002775401 0.0002833222 0.0002891639 0.0002950652 0.0003010261 0.0003070466 0.0003131267 0.0003192665 0.0003254658 0.0003317248 0.0003380433 0.0003444215 0.0003508593 0.0003573567 0.0003639137 0.0003705303 0.0003772065 0.0003839424 0.0003907378 0.0003975928 0.0004045075 0.0004114818 0.0004185157 0.0004256091 0.0004327622 0.0004399749 0.0004472472 0.0004545792 0.0004619707 0.0004694218 0.0004769326 0.000484503 0.0004921329 0.0004998225 0.0005075717 0.0005153805 0.0005232489 0.0005311769 0.0005391645 0.0005472117 0.0005553186 0.000563485 0.0005717111 0.0005799968 0.000588342 0.0005967469 0.0006052114 0.0006137355 0.0006223192 0.0006309626 0.0006396655 0.000648428 0.0006572502 0.0006661319 0.0006750733 0.0006840743 0.0006931349 0.0007022551 0.0007114349 0.0007206743 0.0007299733 0.000739332 0.0007487502 0.000758228 0.0007677655 0.0007773626 0.0007870192 0.0007967355 0.0008065114 0.0008163469 0.0008262421 0.0008361968 0.0008462111 0.0008562851 0.0008664186 0.0008766118 0.0008868645 0.0008971769 0.0009075489 0.0009179805 0.0009284717 0.0009390225 0.0009496329 0.000960303 0.0009710326 0.0009818219 0.0009926707 0.001003579 0.001014547 0.001025575 0.001036662 0.001047809 0.001059016 0.001070282 0.001081608 0.001092993 0.001104438 0.001115942 0.001127507 0.00113913 0.001150814 0.001162557 0.001174359 0.001186222 0.001198143 0.001210125 0.001222166 0.001234266 0.001246427 0.001258647 0.001270926 0.001283265 0.001295664 0.001308122 0.00132064 0.001333218 0.001345855 0.001358552 0.001371308 0.001384124 0.001396999 0.001409935 0.001422929 0.001435984 0.001449098 0.001462271 0.001475505 0.001488797 0.00150215 0.001515562 0.001529034 0.001542565 0.001556156 0.001569806 0.001583516 0.001597286 0.001611115 0.001625004 0.001638953 0.001652961 0.001667029 0.001681156 0.001695343 0.00170959 0.001723896 0.001738262 0.001752687 0.001767172 0.001781717 0.001796321 0.001810985 0.001825708 0.001840491 0.001855334 0.001870236 0.001885198 0.00190022 0.001915301 0.001930441 0.001945642 0.001960902 0.001976042 0.001991064 0.002005966 0.002020749 0.002035413 0.002049958 0.002064383 0.002078689 0.002092876 0.002106944 0.002120893 0.002134722 0.002148432 0.002162023 0.002175495 0.002188847 0.00220208 0.002215194 0.002228189 0.002241065 0.002253821 0.002266458 0.002278976 0.002291375 0.002303654 0.002315814 0.002327855 0.002339777 0.00235158 0.002363263 0.002374827 0.002386272 0.002397598 0.002408805 0.002419892 0.00243086 0.002441709 0.002452439 0.002463049 0.00247354 0.002483912 0.002494165 0.002504298 0.002514313 0.002524208 0.002533984 0.00254364 0.002553178 0.002562596 0.002571895 0.002581075 0.002590136 0.002599077 0.002607899 0.002616602 0.002625186 0.00263365 0.002641996 0.002650222 0.002658328 0.002666316 0.002674184 0.002681934 0.002689564 0.002697074 0.002704466 0.002711738 0.002718891 0.002725925 0.00273284 0.002739635 0.002746312 0.002752869 0.002759306 0.002765625 0.002771824 0.002777904 0.002783865 0.002789707 0.002795429 0.002801033 0.002806517 0.002811882 0.002817127 0.002822254 0.002827261 0.002832149 0.002836917 0.002841567 0.002846097 0.002850508 0.0028548 0.002858973 0.002863026 0.00286696 0.002870775 0.002874471 0.002878048 0.002881505 0.002884843 0.002888062 0.002891162 0.002894142 0.002897003 0.002899745 0.002902368 0.002904872 0.002907256 0.002909521 0.002911667 0.002913694 0.002915601 0.00291739 0.002919059 0.002920609 0.002922039 0.002923351 0.002924543 0.002925616 0.002926569 0.002927404 0.002928119 0.002928715 0.002929192 0.00292955 0.002929788 0.002929908</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20240809031617.949536.10" name="ResponseFIR/20240809031617.949536.10">
+      <gain>1</gain>
+      <gainFrequency>0.005</gainFrequency>
+      <decimationFactor>5</decimationFactor>
+      <delay>250</delay>
+      <correction>250</correction>
+      <numberOfCoefficients>251</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-1.39149e-09 -7.586862e-11 1.420088e-09 2.849903e-09 3.819078e-09 3.821577e-09 2.406421e-09 -5.624457e-10 -4.655159e-09 -8.769967e-09 -1.128874e-08 -1.053179e-08 -5.429642e-09 3.79412e-09 1.521083e-08 2.531152e-08 2.980495e-08 2.500023e-08 9.425286e-09 -1.487011e-08 -4.192827e-08 -6.284793e-08 -6.814923e-08 -5.107519e-08 -1.087824e-08 4.512763e-08 1.018565e-07 1.396363e-07 1.399344e-07 9.224932e-08 0 -1.169579e-07 -2.249648e-07 -2.847261e-07 -2.635307e-07 -1.482287e-07 4.539343e-08 2.709892e-07 4.601953e-07 5.407743e-07 4.603184e-07 2.086209e-07 -1.692722e-07 -5.758821e-07 -8.825299e-07 -9.657626e-07 -7.498698e-07 -2.423829e-07 4.509138e-07 1.14077e-06 1.600196e-06 1.632052e-06 1.140264e-06 1.815866e-07 -1.023133e-06 -2.1298e-06 -2.760426e-06 -2.620592e-06 -1.611434e-06 1.018087e-07 2.095242e-06 3.777385e-06 4.551336e-06 4.007526e-06 2.089365e-06 -8.270371e-07 -3.979891e-06 -6.401773e-06 -7.196635e-06 -5.840044e-06 -2.409164e-06 2.343489e-06 7.121724e-06 1.04133e-05 1.093909e-05 8.098252e-06 2.265749e-06 -5.176319e-06 -1.212436e-05 -1.63126e-05 -1.600818e-05 -1.06402e-05 -1.152068e-06 1.00758e-05 1.977059e-05 2.467287e-05 2.256727e-05 1.31282e-05 -1.713493e-06 -1.806559e-05 -3.102903e-05 -3.60999e-05 -3.063636e-05 -1.49362e-05 7.466618e-06 3.048283e-05 4.70395e-05 5.116344e-05 3.99876e-05 1.504036e-05 -1.767705e-05 -4.900137e-05 -6.906814e-05 -7.029421e-05 -5.00131e-05 -1.189764e-05 3.442002e-05 7.562743e-05 9.842416e-05 9.364307e-05 5.956762e-05 3.320712e-06 -6.032767e-05 -0.0001126568 -0.0001363307 -0.0001209013 -6.67919e-05 1.363986e-05 9.860771e-05 0.0001625829 0.0001837453 0.0001510849 6.892649e-05 -4.279238e-05 -0.0001530159 -0.0002279474 -0.0002411284 -0.0001822898 -6.212894e-05 8.886496e-05 0.0002277701 0.0003111268 0.000308164 0.0002114284 4.130937e-05 -0.0001575161 -0.0003273975 -0.0004140568 -0.0003834393 -0.0002339631 -5.802493e-19 0.0002552834 0.0004565101 0.0005378962 0.0004640963 0.000243649 -6.972857e-05 -0.0003894638 -0.0006195113 -0.0006826433 -0.0005454696 -0.0002323025 0.0001772971 0.0005679274 0.0008202444 0.0008467183 0.0006207241 0.0001895999 -0.0003335973 -0.0007988789 -0.001061601 -0.00102653 -0.0006805001 -0.0001029013 0.000550941 0.001090594 0.00134512 0.00121604 0.0007125615 -4.292878e-05 -0.0008430229 -0.001451179 -0.001670597 -0.00140633 -0.0007014137 0.0002657671 0.001224977 0.001888422 0.00203577 0.001585156 0.0006278163 -0.0005866668 -0.001713666 -0.002409854 -0.002436082 -0.001736429 -0.0004680347 0.001030702 0.002328423 0.003023166 0.002864585 0.001839487 0.0001925301 -0.001628629 -0.003092666 -0.003737278 -0.003312001 -0.001867876 0.0002364914 0.002420123 0.004037119 0.00456454 0.003766952 0.001787041 -0.0008698513 -0.003460146 -0.005206167 -0.005525062 -0.004216371 -0.001549641 0.001781046 0.004831812 0.00667071 0.006655423 0.004646066 0.001085444 -0.003086879 -0.006673999 -0.008555872 -0.008027397 -0.005041419 -0.0002778132 0.00499557 0.009246477 0.01110725 0.009793245 0.005388172 -0.001097859 -0.007934667 -0.01310724 -0.01487626 -0.01231581 -0.005673234 0.003567701 0.01296797 0.01971571 0.02138112 0.01665697 0.005885467 -0.008788605 -0.02371449 -0.0344482 -0.03673974 -0.02757392 -0.006016367 0.02635173 0.06553879 0.105794 0.1406814 0.1643509 0.1727273</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20240809031617.949781.12" name="ResponseFIR/20240809031617.949781.12">
+      <gain>1</gain>
+      <gainFrequency>0.005</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>250</delay>
+      <correction>250</correction>
+      <numberOfCoefficients>251</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1.819937e-09 2.020271e-09 -1.69748e-09 -2.790643e-09 1.734532e-09 4.196924e-09 -1.685379e-09 -6.390947e-09 1.238934e-09 9.491595e-09 -0 -1.356254e-08 -2.527555e-09 1.857737e-08 6.951462e-09 -2.437203e-08 -1.399081e-08 3.058552e-08 2.445971e-08 -3.659125e-08 -3.922961e-08 4.142316e-08 5.916516e-08 -4.370229e-08 -8.502903e-08 4.157191e-08 1.173527e-07 -3.265069e-08 -1.562714e-07 1.401594e-08 2.01325e-07 1.777006e-08 -2.51229e-07 -6.657658e-08 3.036233e-07 1.365494e-07 -3.548149e-07 -2.318709e-07 3.99528e-07 3.56425e-07 -4.306907e-07 -5.133587e-07 4.39281e-07 7.045397e-07 -4.142703e-07 -9.299164e-07 3.426961e-07 1.186794e-06 -2.09905e-07 -1.469051e-06 1.577858e-21 1.766344e-06 3.034723e-07 -2.063328e-06 -7.165692e-07 2.338984e-06 1.253719e-06 -2.566101e-06 -1.926203e-06 2.711018e-06 2.740378e-06 -2.733697e-06 -3.695665e-06 2.588235e-06 4.782381e-06 -2.223896e-06 -5.979505e-06 1.586742e-06 7.252483e-06 -6.219342e-07 -8.551244e-06 -7.232681e-07 9.808579e-06 2.495799e-06 -1.093909e-05 -4.732406e-06 1.183891e-05 7.454691e-06 -1.23864e-05 -1.06637e-05 1.244403e-05 1.433425e-05 -1.186167e-05 -1.840934e-05 1.048131e-05 2.279476e-05 -8.14349e-06 -2.735453e-05 4.695303e-06 3.190737e-05 -8.022432e-19 -3.622474e-05 -6.051988e-06 4.003088e-05 1.353086e-05 -4.300527e-05 -2.245449e-05 4.478796e-05 3.277517e-05 -4.498801e-05 -4.436677e-05 4.319543e-05 5.701285e-05 -3.899649e-05 -7.039672e-05 3.199266e-05 8.409426e-05 -2.182262e-05 -9.757031e-05 8.187167e-06 0.0001101797 9.123813e-06 -0.0001211734 -3.020307e-05 0.0001297111 5.49976e-05 -0.0001348803 -8.328141e-05 0.0001357219 0.0001146308 -0.0001312636 -0.0001484042 0.0001205596 0.0001837274 -0.0001027364 -0.0002194867 7.70439e-05 0.0002543314 -4.291058e-05 -0.0002866866 5.315982e-18 0.000314778 5.17323e-05 -0.0003366697 -0.0001119847 0.0003503145 0.0001800611 -0.0003536182 -0.0002548299 0.0003445155 0.0003346956 -0.0003210576 -0.0004175833 0.0002815091 0.0005009411 -0.0002244513 -0.0005817615 0.0001488886 0.0006566237 -5.435568e-05 -0.0007217598 -5.898136e-05 0.0007731426 0.0001902323 -0.000806598 -0.0003377045 0.0008179381 0.0004988441 -0.0008031139 -0.0006702008 0.0007583849 0.000847421 -0.0006805001 -0.001025273 0.0005668858 0.00119771 -0.0004158344 -0.001357963 0.0002266864 0.001498682 -1.833598e-17 -0.00161211 -0.0002623012 0.001690289 0.0005568081 -0.001725307 -0.0008785422 0.001709566 0.001220913 -0.001636073 -0.001575726 0.001498749 0.001933236 -0.001292741 -0.002282267 0.001014723 0.002610378 -0.000663196 -0.002904091 0.0002387511 0.003149169 0.0002556935 -0.003330947 -0.0008147042 0.003434698 0.001430194 -0.003446042 -0.002091345 0.003351368 0.002784593 -0.003138274 -0.003493676 0.002796001 0.004199755 -0.002315853 -0.004881585 0.001691586 0.005515748 -0.0009197553 -0.006076916 3.716906e-17 0.00653814 0.001064736 -0.006871128 -0.002268065 0.007046486 0.003600107 -0.00703387 -0.005047531 0.006801974 0.006593697 -0.006318284 -0.008218895 0.005548427 0.009900672 -0.004454914 -0.01161426 0.002994917 0.01333306 -0.001116443 -0.01502924 -0.001248205 0.0166743 0.004193874 -0.01823977 -0.007863398 0.01969785 0.01248784 -0.02102212 -0.01847064 0.02218814 0.02658397 -0.02317406 -0.03850112 0.02396122 0.05860603 -0.02453457 -0.1030389 0.02488308 0.3172833 0.475</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20220926025821.160492.10" name="prim100stage1">
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <decimationFactor>15</decimationFactor>
+      <delay>82</delay>
+      <correction>82</correction>
+      <numberOfCoefficients>83</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-4.047907827e-10 -1.390291411e-10 6.7280005e-10 2.757971531e-09 7.546506866e-09 1.766681105e-08 3.769362982e-08 7.523131717e-08 1.424254209e-07 2.579989943e-07 4.499037172e-07 7.586554657e-07 1.241385824e-06 1.976580337e-06 3.069389219e-06 4.657283634e-06 6.915692774e-06 1.006309585e-05 1.436486681e-05 2.013498922e-05 2.773458889e-05 3.756609353e-05 5.00617438e-05 6.566517496e-05 8.480488905e-05 0.0001078586692 0.0001351083709 0.0001666850741 0.0002025052992 0.0002421998677 0.0002850380044 0.0003298503863 0.0003749559835 0.0004180986428 0.0004564003232 0.0004863386265 0.0005037566478 0.0005039131042 0.0004815800932 0.0004311946011 0.0003470679931 0.0002236551558 5.588177436e-05 -0.0001604755032 -0.0004283653814 -0.0007490084038 -0.001121431577 -0.001542013056 -0.002004062155 -0.002497462335 -0.003008406043 -0.003519249945 -0.004008517211 -0.004451069724 -0.004818467626 -0.005079526363 -0.005201072727 -0.005148891537 -0.004888844032 -0.004388128318 -0.003616641857 -0.002548396678 -0.001162930346 0.0005533496935 0.002605953437 0.004991291898 0.007695917736 0.01069607653 0.01395761186 0.01743625403 0.02107830657 0.0248217272 0.02859758196 0.03233183283 0.03594740244 0.03936644414 0.0425127339 0.04531409175 0.04770473629 0.04962747602 0.05103564613 0.05189470871 0.05218344796</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20220926025821.16054.11" name="prim100stage2">
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <decimationFactor>10</decimationFactor>
+      <delay>93</delay>
+      <correction>93</correction>
+      <numberOfCoefficients>94</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>8.469229815e-10 2.274220288e-09 4.538950838e-09 6.873790582e-09 7.109040417e-09 7.627841347e-10 -1.983009558e-08 -6.609942211e-08 -1.531137889e-07 -2.982494942e-07 -5.18151909e-07 -8.236355595e-07 -1.212476329e-06 -1.660554849e-06 -2.112474379e-06 -2.473531133e-06 -2.605619128e-06 -2.330133658e-06 -1.440980275e-06 2.6980433e-07 2.972713779e-06 6.74885847e-06 1.152961593e-05 1.703543472e-05 2.272479023e-05 2.776698459e-05 3.105368391e-05 3.12630206e-05 2.698613282e-05 1.691886402e-05 1.111764912e-07 -2.374558645e-05 -5.402671731e-05 -8.892267865e-05 -0.0001252819457 -0.0001586044226 -0.0001832358557 -0.0001927980108 -0.0001808635901 -0.0001418501862 -7.206699315e-05 2.919375664e-05 0.0001586654737 0.0003083858467 0.0004654216635 0.0006121982854 0.0007275470742 0.0007885115946 0.0007728577835 0.0006621229618 0.000444925985 0.0001201613649 -0.0003003694628 -0.0007903605459 -0.00130887406 -0.001802020292 -0.002206618092 -0.002455790115 -0.002486192181 -0.002246311919 -0.001705031041 -0.0008594632516 0.0002590111722 0.001581566204 0.003002498488 0.004384141985 0.005566316483 0.00638000234 0.006664402331 0.006286042551 0.005158141389 0.003258199252 0.0006416820736 -0.002550179238 -0.006090064767 -0.009672703326 -0.01293168061 -0.01546424669 -0.01686255839 -0.01674898294 -0.01481246019 -0.01084255434 -0.004757782697 0.003374886269 0.01333182799 0.02473737726 0.03708164757 0.04975069601 0.06206696169 0.07333684637 0.08290151879 0.09018659693 0.09474635107 0.09629848419</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20220926025821.160584.12" name="prim100stage3">
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>111</delay>
+      <correction>111</correction>
+      <numberOfCoefficients>112</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-2.487704074e-10 4.737439759e-09 1.240318921e-08 2.184229964e-09 -2.973504471e-08 -2.774098397e-08 4.823500641e-08 9.048519725e-08 -4.377201938e-08 -2.029250639e-07 -2.932509743e-08 3.576771182e-07 2.380755517e-07 -5.050541265e-07 -6.56660616e-07 5.2951362e-07 1.333026565e-06 -2.353908662e-07 -2.234558256e-06 -6.43188672e-07 3.17884786e-06 2.391893663e-06 -3.766425716e-06 -5.213130997e-06 3.343878836e-06 9.069842338e-06 -1.034202666e-06 -1.349476353e-05 -4.128203068e-06 1.740813572e-05 1.293246945e-05 -1.901116086e-05 -2.559820151e-05 1.583846664e-05 4.129854219e-05 -5.051361531e-06 -5.769433718e-05 -1.59734334e-05 7.062319519e-05 4.876211903e-05 -7.411825064e-05 -9.265601047e-05 6.092805887e-05 0.0001437041529 -2.365713143e-05 -0.0001938176535 -4.34606839e-05 0.0002305286006 0.000142299743 -0.0002376966241 -0.0002684195404 0.0001974200184 0.0004089861669 -9.322642225e-05 -0.000541666704 -8.565059594e-05 0.0006351458754 0.0003394235439 -0.0006517938478 -0.0006531622837 0.0005527339849 0.0009935334284 -0.0003051329943 -0.001308020365 -0.0001089866761 0.001527642392 0.0006836461053 -0.001573807814 -0.001381190291 0.001369316441 0.002127841145 -0.000852739147 -0.002814325562 -5.435980978e-06 0.003302926411 0.001187235386 -0.00344149286 -0.00261501846 0.003083861132 0.004145541224 -0.002114932741 -0.005572668686 0.0004775431527 0.006640170511 0.001802537522 -0.007064640192 -0.004597380817 0.006566940317 0.007666904141 -0.004908950081 -0.0106602889 0.001931063619 0.01312888066 0.002414871264 -0.01454757748 -0.00804247544 0.01433728096 0.01472206237 -0.01187358886 -0.02208894933 0.006451059641 0.02966939535 0.002871718563 -0.03692218906 -0.01777634564 0.04329151456 0.04248360717 -0.0482648452 -0.09280869043 0.05142858357 0.3137773587 0.4474858174</coefficients>
+    </responseFIR>
+    <network publicID="NET/M8/20240327013439.395096.40005" code="M8">
+      <start>2024-01-10T00:00:00.0000Z</start>
+      <description>Australian Semi-Permanent Support Network (MATE)</description>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <comment>
+        <text>{"id":0,"value":"https://doi.org/10.7914/6e8t-6g37"}</text>
+        <id>FDSNXML:Comment/0</id>
+      </comment>
+      <comment>
+        <text>{"id":1,"value":"Robert Pickle, Meghan Miller, Ruth Murdie, John Paul O'Donnell, Alexei Gorbatov, &amp; Michelle Salmon. (2024). Australian Semi-Permanent Support Network [Data set]. International Federation of Digital Seismograph Networks."}</text>
+        <id>FDSNXML:Comment/1</id>
+      </comment>
+      <comment>
+        <text>{"id":2,"value":"The MATE (M8) network is an AuScope-funded collection of semi-permanent telemetered broadband stations to support ongoing experiments and/or target regions of elevated research interested within Australia and its periphery. Collaborators include GSWA, GeoScience Australia, University of Tasmania, and many more to come."}</text>
+        <id>FDSNXML:Comment/2</id>
+      </comment>
+      <station publicID="STA/M8/MOGAR/20240327013439.406959.40162" code="MOGAR">
+        <start>2024-01-10T00:00:00.0000Z</start>
+        <description>Mogareeka</description>
+        <latitude>-36.6965</latitude>
+        <longitude>149.9761</longitude>
+        <elevation>13</elevation>
+        <place>New South Wales</place>
+        <country>AU</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <comment>
+          <text>{"id":0,"value":"MSM house direct power"}</text>
+          <id>FDSNXML:Comment/0</id>
+        </comment>
+        <sensorLocation publicID="LOC/M8/MOGAR//20240327013439.407042.40164" code="">
+          <start>2024-01-10T00:00:00.0000Z</start>
+          <latitude>-36.6965</latitude>
+          <longitude>149.9761</longitude>
+          <elevation>13</elevation>
+          <stream publicID="Stream/20240327013439.407586.137" code="HHN" datalogger="Datalogger/20240327013439.407688.138" sensor="Sensor/20240327013439.407715.139">
+            <start>2024-01-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>9301</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>9299</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>299469757.6</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Nanometrics Centaur","serialNumber":"9301"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium 120s PostHole (BB)","model":"Nanometrics Trillium 120s PostHole (754 V/m/s)","serialNumber":"9299"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20240327013439.408493.157" code="HHE" datalogger="Datalogger/20240327013439.408586.158" sensor="Sensor/20240327013439.408612.159">
+            <start>2024-01-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>9301</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>9299</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>299469757.6</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Nanometrics Centaur","serialNumber":"9301"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium 120s PostHole (BB)","model":"Nanometrics Trillium 120s PostHole (754 V/m/s)","serialNumber":"9299"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20240327013439.409335.177" code="HHZ" datalogger="Datalogger/20240327013439.409434.178" sensor="Sensor/20240327013439.40946.179">
+            <start>2024-01-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>9301</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>9299</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>90</dip>
+            <gain>299469757.6</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Nanometrics Centaur","serialNumber":"9301"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium 120s PostHole (BB)","model":"Nanometrics Trillium 120s PostHole (754 V/m/s)","serialNumber":"9299"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/M8/AU52/20240724080438.674594.75300" code="AU52">
+        <start>2024-07-23T07:14:00.0000Z</start>
+        <description>Cascade</description>
+        <latitude>-33.4865</latitude>
+        <longitude>120.9751</longitude>
+        <elevation>182</elevation>
+        <place>Western Australia</place>
+        <country>AU</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <comment>
+          <text>{"id":0,"value":"Formerly OA.AU52"}</text>
+          <id>FDSNXML:Comment/0</id>
+        </comment>
+        <sensorLocation publicID="LOC/M8/AU52//20240724080438.674778.75302" code="">
+          <start>2024-07-23T07:14:00.0000Z</start>
+          <latitude>-33.4865</latitude>
+          <longitude>120.9751</longitude>
+          <elevation>182</elevation>
+          <stream publicID="Stream/20240724080438.675882.16" code="HHN" datalogger="Datalogger/20240724080438.67598.17" sensor="Sensor/20240724080438.676032.18">
+            <start>2024-07-23T07:14:00.0000Z</start>
+            <dataloggerSerialNumber>9A56</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>8767</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>309063038.7</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Guralp Minimus","serialNumber":"9A56"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium Compact 120s (BB)","model":"Nanometrics Trillium Compact 120s (754 V/m/s)","serialNumber":"8767"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20240724080438.677524.35" code="HHE" datalogger="Datalogger/20240724080438.677618.36" sensor="Sensor/20240724080438.677643.37">
+            <start>2024-07-23T07:14:00.0000Z</start>
+            <dataloggerSerialNumber>9A56</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>8767</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>309063038.7</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Guralp Minimus","serialNumber":"9A56"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium Compact 120s (BB)","model":"Nanometrics Trillium Compact 120s (754 V/m/s)","serialNumber":"8767"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20240724080438.678377.54" code="HHZ" datalogger="Datalogger/20240724080438.67847.55" sensor="Sensor/20240724080438.678495.56">
+            <start>2024-07-23T07:14:00.0000Z</start>
+            <dataloggerSerialNumber>9A56</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>8767</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>90</dip>
+            <gain>309063038.7</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Guralp Minimus","serialNumber":"9A56"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium Compact 120s (BB)","model":"Nanometrics Trillium Compact 120s (754 V/m/s)","serialNumber":"8767"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/M8/ONGER/20240724080438.692727.75669" code="ONGER">
+        <start>2024-07-24T07:42:00.0000Z</start>
+        <description>Ongerup</description>
+        <latitude>-33.86366</latitude>
+        <longitude>118.39563</longitude>
+        <elevation>340</elevation>
+        <place>Western Australia</place>
+        <country>AU</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <comment>
+          <text>{"id":0,"value":"Formerly AU.ONGER"}</text>
+          <id>FDSNXML:Comment/0</id>
+        </comment>
+        <sensorLocation publicID="LOC/M8/ONGER//20240724080438.692804.75671" code="">
+          <start>2024-07-24T07:42:00.0000Z</start>
+          <latitude>-33.86366</latitude>
+          <longitude>118.39563</longitude>
+          <elevation>340</elevation>
+          <stream publicID="Stream/20240724080438.693276.379" code="HHN" datalogger="Datalogger/20240724080438.693369.380" sensor="Sensor/20240724080438.693394.381">
+            <start>2024-07-24T07:42:00.0000Z</start>
+            <dataloggerSerialNumber>9993</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>9900</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>299469757.6</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Nanometrics Centaur","serialNumber":"9993"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium 120s PostHole (BB)","model":"Nanometrics Trillium 120s PostHole (754 V/m/s)","serialNumber":"9900"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20240724080438.694124.399" code="HHE" datalogger="Datalogger/20240724080438.694217.400" sensor="Sensor/20240724080438.694242.401">
+            <start>2024-07-24T07:42:00.0000Z</start>
+            <dataloggerSerialNumber>9993</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>9900</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>299469757.6</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Nanometrics Centaur","serialNumber":"9993"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium 120s PostHole (BB)","model":"Nanometrics Trillium 120s PostHole (754 V/m/s)","serialNumber":"9900"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20240724080438.694967.419" code="HHZ" datalogger="Datalogger/20240724080438.69506.420" sensor="Sensor/20240724080438.695085.421">
+            <start>2024-07-24T07:42:00.0000Z</start>
+            <dataloggerSerialNumber>9993</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>9900</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>90</dip>
+            <gain>299469757.6</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Nanometrics Centaur","serialNumber":"9993"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium 120s PostHole (BB)","model":"Nanometrics Trillium 120s PostHole (754 V/m/s)","serialNumber":"9900"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/M8/WATNG/20240724080438.69538.75726" code="WATNG">
+        <start>2024-05-20T09:34:00.0000Z</start>
+        <description>Wattoning</description>
+        <latitude>-30.73225</latitude>
+        <longitude>118.19848</longitude>
+        <elevation>355</elevation>
+        <place>Western Australia</place>
+        <country>AU</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <comment>
+          <text>{"id":0,"value":"Formerly AU.WATNG"}</text>
+          <id>FDSNXML:Comment/0</id>
+        </comment>
+        <sensorLocation publicID="LOC/M8/WATNG//20240724080438.695457.75728" code="">
+          <start>2024-05-20T09:34:00.0000Z</start>
+          <latitude>-30.73225</latitude>
+          <longitude>118.19848</longitude>
+          <elevation>355</elevation>
+          <stream publicID="Stream/20240724080438.695956.441" code="HHN" datalogger="Datalogger/20240724080438.696054.442" sensor="Sensor/20240724080438.69608.443">
+            <start>2024-05-20T09:34:00.0000Z</start>
+            <dataloggerSerialNumber>7642</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>9909</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>299469757.6</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Nanometrics Centaur","serialNumber":"7642"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium 120s PostHole (BB)","model":"Nanometrics Trillium 120s PostHole (754 V/m/s)","serialNumber":"9909"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20240724080438.696841.461" code="HHE" datalogger="Datalogger/20240724080438.696934.462" sensor="Sensor/20240724080438.696959.463">
+            <start>2024-05-20T09:34:00.0000Z</start>
+            <dataloggerSerialNumber>7642</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>9909</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>299469757.6</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Nanometrics Centaur","serialNumber":"7642"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium 120s PostHole (BB)","model":"Nanometrics Trillium 120s PostHole (754 V/m/s)","serialNumber":"9909"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20240724080438.69769.481" code="HHZ" datalogger="Datalogger/20240724080438.697782.482" sensor="Sensor/20240724080438.697807.483">
+            <start>2024-05-20T09:34:00.0000Z</start>
+            <dataloggerSerialNumber>7642</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>9909</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>90</dip>
+            <gain>299469757.6</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Nanometrics Centaur","serialNumber":"7642"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium 120s PostHole (BB)","model":"Nanometrics Trillium 120s PostHole (754 V/m/s)","serialNumber":"9909"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/M8/AI45/20240809022910.521534.75300" code="AI45">
+        <start>2024-02-06T00:00:00.0000Z</start>
+        <description>Jurien Bay</description>
+        <latitude>-29.9886</latitude>
+        <longitude>114.9982</longitude>
+        <elevation>2</elevation>
+        <place>Western Australia</place>
+        <country>AU</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <comment>
+          <text>{"id":0,"value":"Formerly OA.AI45"}</text>
+          <id>FDSNXML:Comment/0</id>
+        </comment>
+        <sensorLocation publicID="LOC/M8/AI45//20240809022910.522068.75302" code="">
+          <start>2024-02-06T00:00:00.0000Z</start>
+          <latitude>-29.9886</latitude>
+          <longitude>114.9982</longitude>
+          <elevation>2</elevation>
+          <stream publicID="Stream/20240809022910.524359.16" code="HHN" datalogger="Datalogger/20240809022910.524561.17" sensor="Sensor/20240809022910.524658.18">
+            <start>2024-02-06T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>4D56</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>1234</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>309063038.7</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Guralp Minimus","serialNumber":"4D56"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium Compact 120s (BB)","model":"Nanometrics Trillium Compact 120s (754 V/m/s)","serialNumber":"1234"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20240809022910.52593.35" code="HHE" datalogger="Datalogger/20240809022910.526083.36" sensor="Sensor/20240809022910.526128.37">
+            <start>2024-02-06T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>4D56</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>1234</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>309063038.7</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Guralp Minimus","serialNumber":"4D56"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium Compact 120s (BB)","model":"Nanometrics Trillium Compact 120s (754 V/m/s)","serialNumber":"1234"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20240809022910.527249.54" code="HHZ" datalogger="Datalogger/20240809022910.527406.55" sensor="Sensor/20240809022910.527456.56">
+            <start>2024-02-06T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>4D56</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>1234</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>90</dip>
+            <gain>309063038.7</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <comment>
+              <text>{"model":"Guralp Minimus","serialNumber":"4D56"}</text>
+              <id>FDSNXML:DataLogger</id>
+            </comment>
+            <comment>
+              <text>{"type":"BB","description":"Trillium Compact 120s (BB)","model":"Nanometrics Trillium Compact 120s (754 V/m/s)","serialNumber":"1234"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

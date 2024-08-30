@@ -22,6 +22,7 @@ class Bridge(QObject):
     def updateLocation(self, lat, lng):
         print(f"Location updated: {lat}, {lng}")
         self.locationChanged.emit(lat, lng)
+
 class MapWidget(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -46,10 +47,10 @@ class MapWidget(QWidget):
         self.bridge = Bridge()
         self.channel.registerObject('pyObj', self.bridge)
         self.webView.page().setWebChannel(self.channel)
-        
+
         # Connect the bridge's signal to the parent's update_location method
         self.bridge.locationChanged.connect(self.parent.update_location)
-        
+
         layout.addWidget(self.webView)
 
         self.update_map(coordinate)
@@ -60,7 +61,7 @@ class MapWidget(QWidget):
         data = io.BytesIO()
         self.map.save(data, close_file=False)
         self.webView.setHtml(data.getvalue().decode())
-        
+
         self.webView.page().runJavaScript('''
             function initMap() {
                 var map = document.getElementsByTagName('div')[0];
@@ -96,11 +97,11 @@ class MapWidget(QWidget):
             setTimeout(initMap, 500);
         ''')
 
-    def onClick(self, lat, lng):
-        self.parent.update_location(lat, lng)
+    # def onClick(self, lat, lng):
+    #     self.parent.update_location(lat, lng)
 
-    def onDragEnd(self, lat, lng):
-        self.parent.update_location(lat, lng)
+    # def onDragEnd(self, lat, lng):
+    #     self.parent.update_location(lat, lng)
 
 class BeachballWidget(QWidget):
     def __init__(self, parent=None):

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.12" version="0.12">
+  <Inventory>
+    <sensor publicID="Sensor/20210209022725.414654.7" name="AT.AKUT.BHE.2004.322.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.414974.15" name="AT.AKUT.BHN.2004.322.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.415235.23" name="AT.AKUT.BHZ.2004.322.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.41638.59" name="AT.CRAG.BHE.2004.345.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.416653.67" name="AT.CRAG.BHN.2004.345.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.416872.75" name="AT.CRAG.BHZ.2004.345.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.419528.153" name="AT.OHAK.BHE.2006.174.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.419786.161" name="AT.OHAK.BHN.2006.174.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.419993.169" name="AT.OHAK.BHZ.2006.174.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.421106.205" name="AT.SDPT.BHE.2002.240.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.421544.213" name="AT.SDPT.BHN.2002.240.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.421808.221" name="AT.SDPT.BHZ.2002.240.00.00.00" response="ResponsePAZ/20210209022725.414672.8">
+      <description>STS-2/Trident</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.427653.400" name="AT.SMY.BHE.2016.257.17.10.39" response="ResponsePAZ/20210209022725.424257.304">
+      <description>STS-2, 120 s, 1500 V/m/s, generation 3 electronics</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.427855.408" name="AT.SMY.BHN.2016.257.17.10.39" response="ResponsePAZ/20210209022725.424257.304">
+      <description>STS-2, 120 s, 1500 V/m/s, generation 3 electronics</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210209022725.428057.416" name="AT.SMY.BHZ.2016.257.17.10.39" response="ResponsePAZ/20210209022725.424257.304">
+      <description>STS-2, 120 s, 1500 V/m/s, generation 3 electronics</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <datalogger publicID="Datalogger/20210209022725.414592.6" name="AT.AKUT.BHE.2004.322.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.414953.14" name="AT.AKUT.BHN.2004.322.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.415214.22" name="AT.AKUT.BHZ.2004.322.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.416359.58" name="AT.CRAG.BHE.2004.345.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.416632.66" name="AT.CRAG.BHN.2004.345.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.416851.74" name="AT.CRAG.BHZ.2004.345.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.419476.152" name="AT.OHAK.BHE.2006.174.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.419766.160" name="AT.OHAK.BHN.2006.174.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.419973.168" name="AT.OHAK.BHZ.2006.174.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.421083.204" name="AT.SDPT.BHE.2002.240.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.421339.212" name="AT.SDPT.BHN.2002.240.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.421786.220" name="AT.SDPT.BHZ.2002.240.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>5e-05</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.414754.9 ResponseFIR/20210209022725.414796.10 ResponseFIR/20210209022725.414825.11 ResponseIIR/20210209022725.414851.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.427631.399" name="AT.SMY.BHE.2016.257.17.10.39">
+      <gain>400000</gain>
+      <maxClockDrift>0.1</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.426964.378 ResponseFIR/20210209022725.426991.379 ResponseFIR/20210209022725.427016.380 ResponseFIR/20210209022725.427038.381</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.427834.407" name="AT.SMY.BHN.2016.257.17.10.39">
+      <gain>400000</gain>
+      <maxClockDrift>0.1</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.426964.378 ResponseFIR/20210209022725.426991.379 ResponseFIR/20210209022725.427016.380 ResponseFIR/20210209022725.427038.381</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210209022725.428037.415" name="AT.SMY.BHZ.2016.257.17.10.39">
+      <gain>400000</gain>
+      <maxClockDrift>0.1</maxClockDrift>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210209022725.426964.378 ResponseFIR/20210209022725.426991.379 ResponseFIR/20210209022725.427016.380 ResponseFIR/20210209022725.427038.381</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ/20210209022725.414672.8" name="ResponsePAZ/20210209022725.414672.8">
+      <type>A</type>
+      <gain>1500</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>48539500</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>5</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370237,0.0370244) (-0.0370237,-0.0370244) (-251.327,0) (-118.634,423.065) (-118.634,-423.065)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20210209022725.424257.304" name="ResponsePAZ/20210209022725.424257.304">
+      <type>A</type>
+      <gain>1500</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>3.4684e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-15.15,0) (-176.6,0) (-463.1,-430.5) (-463.1,430.5)</zeros>
+      <poles>(-0.037,-0.037) (-0.037,0.037) (-15.64,0) (-97.34,-400.7) (-97.34,400.7) (-374.8,0) (-520.3,0) (-10530,-10050) (-10530,10050) (-13300,0) (-255.097,0)</poles>
+    </responsePAZ>
+    <responseFIR publicID="ResponseFIR/20210209022725.414754.9" name="ResponseFIR/20210209022725.414754.9">
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <decimationFactor>20</decimationFactor>
+      <delay>101.001</delay>
+      <correction>101.001</correction>
+      <numberOfCoefficients>102</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-5.14855e-10 -5.50382e-10 -6.49147e-10 -8.86529e-10 -1.39922e-09 -2.42249e-09 -4.34531e-09 -7.78915e-09 -1.37185e-08 -2.35919e-08 -3.95655e-08 -6.47606e-08 -1.03612e-07 -1.62312e-07 -2.49366e-07 -3.76289e-07 -5.58442e-07 -8.16048e-07 -1.17539e-06 -1.67022e-06 -2.34336e-06 -3.24854e-06 -4.45244e-06 -6.03688e-06 -8.10125e-06 -1.0765e-05 -1.41704e-05 -1.84845e-05 -2.39026e-05 -3.06493e-05 -3.89812e-05 -4.91877e-05 -6.15916e-05 -7.65489e-05 -9.44469e-05 -0.000115701 -0.000140753 -0.000170057 -0.000204082 -0.000243291 -0.000288135 -0.000339031 -0.000396351 -0.000460395 -0.000531369 -0.000609364 -0.000694322 -0.00078601 -0.000883991 -0.000987588 -0.00109586 -0.00120758 -0.00132117 -0.00143473 -0.00154599 -0.00165228 -0.00175055 -0.00183737 -0.00190889 -0.00196092 -0.00198891 -0.00198801 -0.00195312 -0.00187891 -0.00175996 -0.00159077 -0.0013659 -0.00108005 -0.000728162 -0.000305547 0.000192008 0.000768119 0.00142569 0.00216678 0.00299256 0.00390311 0.00489743 0.00597332 0.00712733 0.00835476 0.00964959 0.0110045 0.0124111 0.0138595 0.015339 0.0168378 0.0183433 0.019842 0.0213202 0.0227636 0.0241578 0.0254887 0.0267422 0.0279048 0.0289639 0.0299077 0.0307255 0.0314079 0.0319472 0.0323369 0.0325726 0.0326514</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20210209022725.414796.10" name="ResponseFIR/20210209022725.414796.10">
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <decimationFactor>15</decimationFactor>
+      <delay>121.9995</delay>
+      <correction>121.9995</correction>
+      <numberOfCoefficients>123</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-2.24842e-08 -4.64264e-08 -9.08682e-08 -1.59021e-07 -2.56791e-07 -3.89238e-07 -5.59475e-07 -7.67353e-07 -1.00791e-06 -1.26983e-06 -1.53406e-06 -1.77262e-06 -1.948e-06 -2.01349e-06 -1.91428e-06 -1.59014e-06 -9.79191e-07 -2.34201e-08 1.32458e-06 3.09364e-06 5.28522e-06 7.86443e-06 1.07517e-05 1.38155e-05 1.68684e-05 1.96655e-05 2.1908e-05 2.32526e-05 2.33261e-05 2.17467e-05 1.81521e-05 1.22317e-05 3.76436e-06 -7.3426e-06 -2.10142e-05 -3.69725e-05 -5.47078e-05 -7.34608e-05 -9.22187e-05 -0.000109729 -0.000124535 -0.000135029 -0.000139535 -0.000136403 -0.000124131 -0.000101497 -6.76954e-05 -2.24743e-05 3.37365e-05 9.9722e-05 0.00017341 0.000251843 0.000331202 0.000406892 0.00047369 0.000525964 0.000557952 0.000564092 0.000539405 0.000479895 0.000382956 0.000247756 7.55758e-05 -0.000129933 -0.000362591 -0.000613667 -0.000871998 -0.00112428 -0.00135552 -0.00154964 -0.00169028 -0.00176168 -0.00174963 -0.00164255 -0.00143245 -0.00111592 -0.000694902 -0.000177332 0.000422532 0.00108405 0.00178049 0.0024797 0.00314517 0.0037374 0.00421564 0.00453989 0.00467311 0.00458346 0.00424659 0.00364782 0.00278396 0.00166489 0.000314552 -0.00122856 -0.00291163 -0.00466834 -0.00642057 -0.00808057 -0.00955397 -0.0107432 -0.0115514 -0.0118864 -0.0116653 -0.0108183 -0.00929273 -0.00705615 -0.00409941 -0.000438289 0.00388545 0.00880421 0.0142256 0.0200349 0.0260979 0.0322652 0.0383772 0.0442693 0.049778 0.0547464 0.0590302 0.062503 0.0650612 0.0666278 0.0671553</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20210209022725.414825.11" name="ResponseFIR/20210209022725.414825.11">
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>111</delay>
+      <correction>111</correction>
+      <numberOfCoefficients>112</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-2.4877e-10 4.73744e-09 1.24032e-08 2.18423e-09 -2.9735e-08 -2.7741e-08 4.8235e-08 9.04852e-08 -4.3772e-08 -2.02925e-07 -2.93251e-08 3.57677e-07 2.38076e-07 -5.05054e-07 -6.56661e-07 5.29514e-07 1.33303e-06 -2.35391e-07 -2.23456e-06 -6.43189e-07 3.17885e-06 2.39189e-06 -3.76643e-06 -5.21313e-06 3.34388e-06 9.06984e-06 -1.0342e-06 -1.34948e-05 -4.1282e-06 1.74081e-05 1.29325e-05 -1.90112e-05 -2.55982e-05 1.58385e-05 4.12985e-05 -5.05136e-06 -5.76943e-05 -1.59734e-05 7.06232e-05 4.87621e-05 -7.41183e-05 -9.2656e-05 6.09281e-05 0.000143704 -2.36571e-05 -0.000193818 -4.34607e-05 0.000230529 0.0001423 -0.000237697 -0.00026842 0.00019742 0.000408986 -9.32264e-05 -0.000541667 -8.56506e-05 0.000635146 0.000339424 -0.000651794 -0.000653162 0.000552734 0.000993533 -0.000305133 -0.00130802 -0.000108987 0.00152764 0.000683646 -0.00157381 -0.00138119 0.00136932 0.00212784 -0.000852739 -0.00281433 -5.43598e-06 0.00330293 0.00118724 -0.00344149 -0.00261502 0.00308386 0.00414554 -0.00211493 -0.00557267 0.000477543 0.00664017 0.00180254 -0.00706464 -0.00459738 0.00656694 0.0076669 -0.00490895 -0.0106603 0.00193106 0.0131289 0.00241487 -0.0145476 -0.00804248 0.0143373 0.0147221 -0.0118736 -0.0220889 0.00645106 0.0296694 0.00287172 -0.0369222 -0.0177763 0.0432915 0.0424836 -0.0482648 -0.0928087 0.0514286 0.313777 0.447486</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20210209022725.426964.378" name="ResponseFIR/20210209022725.426964.378">
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <decimationFactor>15</decimationFactor>
+      <delay>81.999</delay>
+      <correction>81.999</correction>
+      <numberOfCoefficients>83</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-4.04791e-10 -1.39029e-10 6.728e-10 2.75797e-09 7.54651e-09 1.76668e-08 3.76936e-08 7.52313e-08 1.42425e-07 2.57999e-07 4.49904e-07 7.58655e-07 1.24139e-06 1.97658e-06 3.06939e-06 4.65728e-06 6.91569e-06 1.00631e-05 1.43649e-05 2.0135e-05 2.77346e-05 3.75661e-05 5.00617e-05 6.56652e-05 8.48049e-05 0.000107859 0.000135108 0.000166685 0.000202505 0.0002422 0.000285038 0.00032985 0.000374956 0.000418099 0.0004564 0.000486339 0.000503757 0.000503913 0.00048158 0.000431195 0.000347068 0.000223655 5.58818e-05 -0.000160475 -0.000428365 -0.000749008 -0.00112143 -0.00154201 -0.00200406 -0.00249746 -0.00300841 -0.00351925 -0.00400852 -0.00445107 -0.00481847 -0.00507953 -0.00520107 -0.00514889 -0.00488884 -0.00438813 -0.00361664 -0.0025484 -0.00116293 0.00055335 0.00260595 0.00499129 0.00769592 0.0106961 0.0139576 0.0174363 0.0210783 0.0248217 0.0285976 0.0323318 0.0359474 0.0393664 0.0425127 0.0453141 0.0477047 0.0496275 0.0510357 0.0518947 0.0521834</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20210209022725.426991.379" name="ResponseFIR/20210209022725.426991.379">
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <decimationFactor>10</decimationFactor>
+      <delay>93</delay>
+      <correction>93</correction>
+      <numberOfCoefficients>94</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>8.46923e-10 2.27422e-09 4.53895e-09 6.87379e-09 7.10904e-09 7.62784e-10 -1.98301e-08 -6.60994e-08 -1.53114e-07 -2.98249e-07 -5.18152e-07 -8.23636e-07 -1.21248e-06 -1.66056e-06 -2.11247e-06 -2.47353e-06 -2.60562e-06 -2.33013e-06 -1.44098e-06 2.69804e-07 2.97271e-06 6.74886e-06 1.15296e-05 1.70354e-05 2.27248e-05 2.7767e-05 3.10537e-05 3.1263e-05 2.69861e-05 1.69189e-05 1.11177e-07 -2.37456e-05 -5.40267e-05 -8.89227e-05 -0.000125282 -0.000158604 -0.000183236 -0.000192798 -0.000180864 -0.00014185 -7.2067e-05 2.91938e-05 0.000158666 0.000308386 0.000465422 0.000612198 0.000727547 0.000788512 0.000772858 0.000662123 0.000444926 0.000120161 -0.000300369 -0.00079036 -0.00130887 -0.00180202 -0.00220662 -0.00245579 -0.00248619 -0.00224631 -0.00170503 -0.000859463 0.000259011 0.00158157 0.0030025 0.00438414 0.00556632 0.00638 0.0066644 0.00628604 0.00515814 0.0032582 0.000641682 -0.00255018 -0.00609007 -0.0096727 -0.0129317 -0.0154643 -0.0168626 -0.016749 -0.0148125 -0.0108425 -0.00475778 0.00337489 0.0133318 0.0247374 0.0370817 0.0497507 0.062067 0.0733368 0.0829015 0.0901866 0.0947463 0.0962985</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20210209022725.427016.380" name="ResponseFIR/20210209022725.427016.380">
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <decimationFactor>5</decimationFactor>
+      <delay>56</delay>
+      <correction>56</correction>
+      <numberOfCoefficients>57</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>3.62415e-09 1.47022e-08 2.92465e-08 1.67582e-08 -9.45969e-08 -4.00529e-07 -9.37365e-07 -1.53043e-06 -1.64599e-06 -4.0787e-07 3.03009e-06 8.68599e-06 1.4766e-05 1.71368e-05 1.01281e-05 -1.07286e-05 -4.43965e-05 -8.0298e-05 -9.76176e-05 -7.09487e-05 1.69209e-05 0.000158508 0.000309494 0.00039128 0.000315589 2.91906e-05 -0.000436272 -0.000935417 -0.00122839 -0.00106147 -0.000293982 0.000975648 0.00235245 0.00321558 0.00293343 0.00117105 -0.00182955 -0.00514565 -0.00736121 -0.00705636 -0.00346766 0.00293511 0.0102486 0.0155183 0.0157062 0.00898786 -0.00408117 -0.0200454 -0.033035 -0.0362846 -0.0243088 0.00495879 0.0488452 0.100015 0.148075 0.182311 0.194711</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20210209022725.427038.381" name="ResponseFIR/20210209022725.427038.381">
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>111</delay>
+      <correction>111</correction>
+      <numberOfCoefficients>112</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-2.4877e-10 4.73744e-09 1.24032e-08 2.18423e-09 -2.9735e-08 -2.7741e-08 4.8235e-08 9.04852e-08 -4.3772e-08 -2.02925e-07 -2.93251e-08 3.57677e-07 2.38076e-07 -5.05054e-07 -6.56661e-07 5.29514e-07 1.33303e-06 -2.35391e-07 -2.23456e-06 -6.43189e-07 3.17885e-06 2.39189e-06 -3.76643e-06 -5.21313e-06 3.34388e-06 9.06984e-06 -1.0342e-06 -1.34948e-05 -4.1282e-06 1.74081e-05 1.29325e-05 -1.90112e-05 -2.55982e-05 1.58385e-05 4.12985e-05 -5.05136e-06 -5.76943e-05 -1.59734e-05 7.06232e-05 4.87621e-05 -7.41183e-05 -9.2656e-05 6.09281e-05 0.000143704 -2.36571e-05 -0.000193818 -4.34607e-05 0.000230529 0.0001423 -0.000237697 -0.00026842 0.00019742 0.000408986 -9.32264e-05 -0.000541667 -8.56506e-05 0.000635146 0.000339424 -0.000651794 -0.000653162 0.000552734 0.000993533 -0.000305133 -0.00130802 -0.000108987 0.00152764 0.000683646 -0.00157381 -0.00138119 0.00136932 0.00212784 -0.000852739 -0.00281433 -5.43598e-06 0.00330293 0.00118724 -0.00344149 -0.00261502 0.00308386 0.00414554 -0.00211493 -0.00557267 0.000477543 0.00664017 0.00180254 -0.00706464 -0.00459738 0.00656694 0.0076669 -0.00490895 -0.0106603 0.00193106 0.0131289 0.00241487 -0.0145476 -0.00804248 0.0143373 0.0147221 -0.0118736 -0.0220889 0.00645106 0.0296694 0.00287172 -0.0369222 -0.0177763 0.0432915 0.0424836 -0.0482648 -0.0928087 0.0514286 0.313777 0.447486</coefficients>
+    </responseFIR>
+    <responseIIR publicID="ResponseIIR/20210209022725.414851.12" name="ResponseIIR/20210209022725.414851.12">
+      <type>D</type>
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfNumerators>2</numberOfNumerators>
+      <numberOfDenominators>2</numberOfDenominators>
+      <numerators>1 -1</numerators>
+      <denominators>1 -0.999874</denominators>
+    </responseIIR>
+    <network publicID="NET/AT/20210209022725.400608.47796" code="AT">
+      <start>1967-01-01T00:00:00.0000Z</start>
+      <description>National Tsunami Warning Center Alaska Seismic Network (AT)</description>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <comment>
+        <text>{"type":"DOI","value":"10.7914/SN/AT"}</text>
+        <id>FDSNXML:Identifier/0</id>
+      </comment>
+      <station publicID="STA/AT/AKUT/20210209022725.414202.47798" code="AKUT">
+        <start>2004-11-17T00:00:00.0000Z</start>
+        <description>Akutan, Alaska</description>
+        <latitude>54.13517</latitude>
+        <longitude>-165.771851</longitude>
+        <elevation>19.2</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/AT/AKUT//20210209022725.414338.47799" code="">
+          <start>2004-11-17T00:00:00.0000Z</start>
+          <latitude>54.13517</latitude>
+          <longitude>-165.771851</longitude>
+          <elevation>19.2</elevation>
+          <stream publicID="Stream/20210209022725.414427.5" code="BHE" datalogger="Datalogger/20210209022725.414592.6" sensor="Sensor/20210209022725.414654.7">
+            <start>2004-11-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210209022725.4149.13" code="BHN" datalogger="Datalogger/20210209022725.414953.14" sensor="Sensor/20210209022725.414974.15">
+            <start>2004-11-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210209022725.415161.21" code="BHZ" datalogger="Datalogger/20210209022725.415214.22" sensor="Sensor/20210209022725.415235.23">
+            <start>2004-11-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/AT/CRAG/20210209022725.416222.47850" code="CRAG">
+        <start>2004-12-10T00:00:00.0000Z</start>
+        <description>Craig, Alaska</description>
+        <latitude>55.468941</latitude>
+        <longitude>-133.122971</longitude>
+        <elevation>57.9</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/AT/CRAG//20210209022725.416262.47851" code="">
+          <start>2004-12-10T00:00:00.0000Z</start>
+          <latitude>55.468941</latitude>
+          <longitude>-133.122971</longitude>
+          <elevation>57.9</elevation>
+          <stream publicID="Stream/20210209022725.416305.57" code="BHE" datalogger="Datalogger/20210209022725.416359.58" sensor="Sensor/20210209022725.41638.59">
+            <start>2004-12-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210209022725.41658.65" code="BHN" datalogger="Datalogger/20210209022725.416632.66" sensor="Sensor/20210209022725.416653.67">
+            <start>2004-12-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210209022725.416798.73" code="BHZ" datalogger="Datalogger/20210209022725.416851.74" sensor="Sensor/20210209022725.416872.75">
+            <start>2004-12-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/AT/OHAK/20210209022725.419323.47931" code="OHAK">
+        <start>2006-06-23T00:00:00.0000Z</start>
+        <description>Old Harbor, Alaska</description>
+        <latitude>57.2225</latitude>
+        <longitude>-153.287506</longitude>
+        <elevation>77.5</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/AT/OHAK//20210209022725.419361.47932" code="">
+          <start>2006-06-23T00:00:00.0000Z</start>
+          <latitude>57.2225</latitude>
+          <longitude>-153.287506</longitude>
+          <elevation>77.5</elevation>
+          <stream publicID="Stream/20210209022725.419392.151" code="BHE" datalogger="Datalogger/20210209022725.419476.152" sensor="Sensor/20210209022725.419528.153">
+            <start>2006-06-23T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210209022725.419713.159" code="BHN" datalogger="Datalogger/20210209022725.419766.160" sensor="Sensor/20210209022725.419786.161">
+            <start>2006-06-23T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210209022725.419921.167" code="BHZ" datalogger="Datalogger/20210209022725.419973.168" sensor="Sensor/20210209022725.419993.169">
+            <start>2006-06-23T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/AT/SDPT/20210209022725.420949.47971" code="SDPT">
+        <start>2002-08-28T00:00:00.0000Z</start>
+        <description>Sand Point, Alaska</description>
+        <latitude>55.3493</latitude>
+        <longitude>-160.476593</longitude>
+        <elevation>74</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/AT/SDPT//20210209022725.420989.47972" code="">
+          <start>2002-08-28T00:00:00.0000Z</start>
+          <latitude>55.3493</latitude>
+          <longitude>-160.476593</longitude>
+          <elevation>74</elevation>
+          <stream publicID="Stream/20210209022725.421023.203" code="BHE" datalogger="Datalogger/20210209022725.421083.204" sensor="Sensor/20210209022725.421106.205">
+            <start>2002-08-28T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210209022725.421255.211" code="BHN" datalogger="Datalogger/20210209022725.421339.212" sensor="Sensor/20210209022725.421544.213">
+            <start>2002-08-28T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210209022725.421718.219" code="BHZ" datalogger="Datalogger/20210209022725.421786.220" sensor="Sensor/20210209022725.421808.221">
+            <start>2002-08-28T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>629140000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/AT/SMY/20210209022725.425842.48107" code="SMY">
+        <start>2000-02-15T00:00:00.0000Z</start>
+        <description>Shemya, Alaska</description>
+        <latitude>52.730801</latitude>
+        <longitude>174.103104</longitude>
+        <elevation>58</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/AT/SMY//20210209022725.425905.48108" code="">
+          <start>2003-12-03T00:00:00.0000Z</start>
+          <latitude>52.730801</latitude>
+          <longitude>174.103104</longitude>
+          <elevation>58</elevation>
+          <stream publicID="Stream/20210209022725.427576.398" code="BHE" datalogger="Datalogger/20210209022725.427631.399" sensor="Sensor/20210209022725.427653.400">
+            <start>2016-09-13T17:10:39.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>600000000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210209022725.427782.406" code="BHN" datalogger="Datalogger/20210209022725.427834.407" sensor="Sensor/20210209022725.427855.408">
+            <start>2016-09-13T17:10:39.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>600000000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210209022725.427984.414" code="BHZ" datalogger="Datalogger/20210209022725.428037.415" sensor="Sensor/20210209022725.428057.416">
+            <start>2016-09-13T17:10:39.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>600000000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

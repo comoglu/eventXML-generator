@@ -1,0 +1,14 @@
+Error 404: Not Found
+
+no matching inventory found
+
+Usage details are available from /fdsnws/station/1/
+
+Request:
+/fdsnws/station/1/query?endafter=2024-01-01T00:00:00&network=NG&station=*&location=*&channel=BH?,HH?&level=response&format=sc3ml&formatted=true&nodata=404
+
+Request Submitted:
+2024-08-28T20:43:31.344467
+
+Service Version:
+1.1.4

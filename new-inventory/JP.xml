@@ -1,0 +1,2131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.12" version="0.12">
+  <Inventory>
+    <sensor publicID="Sensor/20210902020337.851106.7" name="JP.ASAJ.BHE.1996.268.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.864126.14" name="JP.ASAJ.BHN.1996.268.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.864472.21" name="JP.ASAJ.BHZ.1996.268.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.865439.30" name="JP.CBIJ.BHE.1996.281.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.866869.37" name="JP.CBIJ.BHN.1996.291.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.867163.44" name="JP.CBIJ.BHZ.1996.291.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.867542.53" name="JP.JCJ.BHE.1996.291.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.868976.60" name="JP.JCJ.BHN.1996.291.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.869248.67" name="JP.JCJ.BHZ.1996.291.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.870004.76" name="JP.JEW.BHE.1996.261.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.870456.83" name="JP.JEW.BHN.1996.261.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.871427.90" name="JP.JEW.BHZ.1996.261.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.872487.99" name="JP.JGF.BHE.1996.261.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.873301.106" name="JP.JGF.BHN.1996.261.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.873687.113" name="JP.JGF.BHZ.1996.261.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.874523.122" name="JP.JHJ2.BHE.1996.281.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.875505.129" name="JP.JHJ2.BHN.1996.281.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.875825.136" name="JP.JHJ2.BHZ.1996.281.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.876256.145" name="JP.JHS.BHE.1996.275.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.876533.152" name="JP.JHS.BHN.1996.275.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.876835.159" name="JP.JHS.BHZ.1996.275.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.877226.168" name="JP.JKA.BHE.1996.268.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.877498.175" name="JP.JKA.BHN.1996.268.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.877795.182" name="JP.JKA.BHZ.1996.268.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.878171.191" name="JP.JMM.BHE.1996.268.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.878439.198" name="JP.JMM.BHN.1996.268.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.87871.205" name="JP.JMM.BHZ.1996.268.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.879111.214" name="JP.JMN.BHE.1996.270.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.879383.221" name="JP.JMN.BHN.1996.270.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.879654.228" name="JP.JMN.BHZ.1996.270.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.880159.237" name="JP.JMZ.BHE.1996.298.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.880434.244" name="JP.JMZ.BHN.1996.298.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.883849.251" name="JP.JMZ.BHZ.1996.298.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.884285.260" name="JP.JNU.BHE.1996.290.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.884601.267" name="JP.JNU.BHN.1996.290.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.88504.274" name="JP.JNU.BHZ.1996.290.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.885526.283" name="JP.JOW.BHE.1996.280.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.88583.290" name="JP.JOW.BHN.1996.280.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.886103.297" name="JP.JOW.BHZ.1996.280.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.886474.306" name="JP.JSD.BHE.1996.273.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.886772.313" name="JP.JSD.BHN.1996.273.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.887046.320" name="JP.JSD.BHZ.1996.273.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.887415.329" name="JP.JSG.BHE.1996.269.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.887686.336" name="JP.JSG.BHN.1996.269.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.887988.343" name="JP.JSG.BHZ.1996.269.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.888408.352" name="JP.JSU.BHE.1996.262.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.88868.359" name="JP.JSU.BHN.1996.262.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.889245.366" name="JP.JSU.BHZ.1996.262.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.88991.375" name="JP.JTM.BHE.1996.280.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.890189.382" name="JP.JTM.BHN.1996.280.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.89046.389" name="JP.JTM.BHZ.1996.280.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.890865.398" name="JP.JTU.BHE.1996.270.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.891138.405" name="JP.JTU.BHN.1996.270.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.891408.412" name="JP.JTU.BHZ.1996.270.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.891812.421" name="JP.JWT.BHE.1996.262.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.892118.428" name="JP.JWT.BHN.1996.262.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.892759.435" name="JP.JWT.BHZ.1996.262.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.893287.444" name="JP.JYT.BHE.1996.249.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.893559.451" name="JP.JYT.BHN.1996.249.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.893853.458" name="JP.JYT.BHZ.1996.249.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.894228.467" name="JP.YOJ.BHE.1996.288.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.89491.474" name="JP.YOJ.BHN.1996.288.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20210902020337.895186.481" name="JP.YOJ.BHZ.1996.288.00.00.00" response="ResponsePAZ/20210902020337.851145.8">
+      <description>Streckeisen STS-2</description>
+      <unit>M/S</unit>
+      <remark>{"unit":"velocity in meters per second"}</remark>
+    </sensor>
+    <datalogger publicID="Datalogger/20210902020337.850968.6" name="JP.ASAJ.BHE.1996.268.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.864086.13" name="JP.ASAJ.BHN.1996.268.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.864439.20" name="JP.ASAJ.BHZ.1996.268.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.865404.29" name="JP.CBIJ.BHE.1996.281.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.866824.36" name="JP.CBIJ.BHN.1996.291.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.86713.43" name="JP.CBIJ.BHZ.1996.291.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.867509.52" name="JP.JCJ.BHE.1996.291.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.868942.59" name="JP.JCJ.BHN.1996.291.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.869215.66" name="JP.JCJ.BHZ.1996.291.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.86996.75" name="JP.JEW.BHE.1996.261.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.870414.82" name="JP.JEW.BHN.1996.261.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.871393.89" name="JP.JEW.BHZ.1996.261.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.872402.98" name="JP.JGF.BHE.1996.261.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.873268.105" name="JP.JGF.BHN.1996.261.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.87354.112" name="JP.JGF.BHZ.1996.261.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.874489.121" name="JP.JHJ2.BHE.1996.281.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.875464.128" name="JP.JHJ2.BHN.1996.281.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.875785.135" name="JP.JHJ2.BHZ.1996.281.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.876223.144" name="JP.JHS.BHE.1996.275.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.8765.151" name="JP.JHS.BHN.1996.275.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.8768.158" name="JP.JHS.BHZ.1996.275.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.877194.167" name="JP.JKA.BHE.1996.268.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.877465.174" name="JP.JKA.BHN.1996.268.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.877759.181" name="JP.JKA.BHZ.1996.268.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.878139.190" name="JP.JMM.BHE.1996.268.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.878408.197" name="JP.JMM.BHN.1996.268.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.878678.204" name="JP.JMM.BHZ.1996.268.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.879078.213" name="JP.JMN.BHE.1996.270.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.879351.220" name="JP.JMN.BHN.1996.270.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.879621.227" name="JP.JMN.BHZ.1996.270.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.880022.236" name="JP.JMZ.BHE.1996.298.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.880401.243" name="JP.JMZ.BHN.1996.298.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.883804.250" name="JP.JMZ.BHZ.1996.298.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.884252.259" name="JP.JNU.BHE.1996.290.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.884569.266" name="JP.JNU.BHN.1996.290.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.884868.273" name="JP.JNU.BHZ.1996.290.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.88549.282" name="JP.JOW.BHE.1996.280.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.885794.289" name="JP.JOW.BHN.1996.280.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.886071.296" name="JP.JOW.BHZ.1996.280.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.886442.305" name="JP.JSD.BHE.1996.273.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.886735.312" name="JP.JSD.BHN.1996.273.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.887014.319" name="JP.JSD.BHZ.1996.273.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.887383.328" name="JP.JSG.BHE.1996.269.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.887654.335" name="JP.JSG.BHN.1996.269.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.887956.342" name="JP.JSG.BHZ.1996.269.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.888376.351" name="JP.JSU.BHE.1996.262.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.888648.358" name="JP.JSU.BHN.1996.262.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.889211.365" name="JP.JSU.BHZ.1996.262.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.889876.374" name="JP.JTM.BHE.1996.280.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.890157.381" name="JP.JTM.BHN.1996.280.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.890428.388" name="JP.JTM.BHZ.1996.280.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.890832.397" name="JP.JTU.BHE.1996.270.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.891105.404" name="JP.JTU.BHN.1996.270.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.891376.411" name="JP.JTU.BHZ.1996.270.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.891777.420" name="JP.JWT.BHE.1996.262.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.892084.427" name="JP.JWT.BHN.1996.262.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.892698.434" name="JP.JWT.BHZ.1996.262.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.893253.443" name="JP.JYT.BHE.1996.249.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.893528.450" name="JP.JYT.BHN.1996.249.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.893821.457" name="JP.JYT.BHZ.1996.249.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.894195.466" name="JP.YOJ.BHE.1996.288.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.894876.473" name="JP.YOJ.BHN.1996.288.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.0030113</maxClockDrift>
+      <decimation sampleRateNumerator="30" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20210902020337.895154.480" name="JP.YOJ.BHZ.1996.288.00.00.00">
+      <gain>1667000</gain>
+      <maxClockDrift>0.002</maxClockDrift>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20210902020337.851265.9 ResponseFIR/20210902020337.851337.10 ResponseFIR/20210902020337.851374.11</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ/20210902020337.851145.8" name="ResponsePAZ/20210902020337.851145.8">
+      <type>A</type>
+      <gain>1500</gain>
+      <gainFrequency>8</gainFrequency>
+      <normalizationFactor>59600000</normalizationFactor>
+      <normalizationFrequency>8</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>5</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.037001,0.03701) (-0.03701,-0.03701) (-251.3,0) (-131,467.3) (-131,-467.3)</poles>
+    </responsePAZ>
+    <responseFIR publicID="ResponseFIR/20210902020337.851265.9" name="ResponseFIR/20210902020337.851265.9">
+      <gain>1</gain>
+      <gainFrequency>8</gainFrequency>
+      <decimationFactor>8</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>33</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>0 0 0.000244141 0.000976563 0.00244141 0.00488281 0.00855492 0.0136719 0.0205078 0.0292969 0.0393066 0.0498047 0.0600586 0.0693359 0.0769043 0.0820313 0.0839844 0.0820313 0.0769043 0.0693359 0.0600586 0.0498047 0.0393066 0.0292969 0.0205078 0.0136719 0.00854492 0.00488281 0.00244141 0.000976563 0.000244141 0 0</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20210902020337.851337.10" name="ResponseFIR/20210902020337.851337.10">
+      <gain>1</gain>
+      <gainFrequency>8</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>7</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244141 0.00292969 0.0161133 0.0537109 0.12085 0.193359 0.225586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20210902020337.851374.11" name="ResponseFIR/20210902020337.851374.11">
+      <gain>1</gain>
+      <gainFrequency>8</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>101</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>-3.09944e-06 -2.94447e-05 -9.799e-05 -0.000162363 -0.000100017 0.00012064 0.000261903 2.52724e-05 -0.000410438 -0.000366807 0.000376225 0.000854492 3.05176e-05 -0.00127661 -0.000911236 0.00127709 0.00215232 -0.000461698 -0.00333869 -0.00140977 0.0037719 0.00419545 -0.0026437 -0.00720346 -0.000644207 0.00918686 0.00608635 -0.00858092 -0.0127441 0.0039835 0.0186319 0.00520682 -0.0209472 -0.0186169 0.0166721 0.0322548 -0.00346696 -0.429663 -0.0193325 0.0443229 0.0498065 -0.0294256 -0.0826336 -0.00934458 0.107586 0.0816859 -0.103142 -0.204272 -3.12328e-05 0.390554 0.590142 0.390554 -3.12328e-05 -0.204272 -0.103142 0.0816859 0.107586 -0.00934458 -0.0826336 -0.0294256 0.0498065 0.0443229 -0.0193325 -0.0429663 -0.00346696 0.0322548 0.0166721 -0.0181686 -0.0209482 0.00520682 0.0186319 0.0039835 -0.0127441 -0.00858092 0.00608635 0.00918686 -0.000644207 -0.00720346 -0.0026437 0.00419545 0.0037719 0.00140977 -0.00333869 -0.000461698 0.00215232 0.00127709 -0.000911236 -0.00127661 3.05176e-05 0.000854492 0.000376225 -0.000366807 -0.000410438 2.52724e-05 0.000261903 0.00012064 -0.000100017 -0.000162363 -9.799e-05 -2.94447e-05 -3.09944e-06</coefficients>
+    </responseFIR>
+    <network publicID="NET/JP/20210902020337.847541.14900" code="JP">
+      <start>1994-01-01T00:00:00.0000Z</start>
+      <description>Japan Meteorological Agency Seismic Network ()</description>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <station publicID="STA/JP/ASAJ/20210902020337.848254.14901" code="ASAJ">
+        <start>1996-09-24T00:00:00.0000Z</start>
+        <description>Kamikawa Asahi</description>
+        <latitude>44.118801</latitude>
+        <longitude>142.593002</longitude>
+        <elevation>220</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/ASAJ//20210902020337.848399.14902" code="">
+          <start>1996-09-24T00:00:00.0000Z</start>
+          <latitude>44.118801</latitude>
+          <longitude>142.593002</longitude>
+          <elevation>220</elevation>
+          <stream publicID="Stream/20210902020337.848504.5" code="BHE" datalogger="Datalogger/20210902020337.850968.6" sensor="Sensor/20210902020337.851106.7">
+            <start>1996-09-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.863941.12" code="BHN" datalogger="Datalogger/20210902020337.864086.13" sensor="Sensor/20210902020337.864126.14">
+            <start>1996-09-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.864354.19" code="BHZ" datalogger="Datalogger/20210902020337.864439.20" sensor="Sensor/20210902020337.864472.21">
+            <start>1996-09-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/CBIJ/20210902020337.865199.14930" code="CBIJ">
+        <start>1996-10-07T00:00:00.0000Z</start>
+        <description>Chichijima Island</description>
+        <latitude>27.095699</latitude>
+        <longitude>142.184494</longitude>
+        <elevation>150</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/CBIJ//20210902020337.865273.14931" code="">
+          <start>1996-10-07T00:00:00.0000Z</start>
+          <latitude>27.095699</latitude>
+          <longitude>142.184494</longitude>
+          <elevation>150</elevation>
+          <stream publicID="Stream/20210902020337.865319.28" code="BHE" datalogger="Datalogger/20210902020337.865404.29" sensor="Sensor/20210902020337.865439.30">
+            <start>1996-10-07T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.866448.35" code="BHN" datalogger="Datalogger/20210902020337.866824.36" sensor="Sensor/20210902020337.866869.37">
+            <start>1996-10-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.867047.42" code="BHZ" datalogger="Datalogger/20210902020337.86713.43" sensor="Sensor/20210902020337.867163.44">
+            <start>1996-10-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JCJ/20210902020337.867322.14950" code="JCJ">
+        <start>1996-10-17T00:00:00.0000Z</start>
+        <description>Chichijima Island</description>
+        <latitude>27.095699</latitude>
+        <longitude>142.184494</longitude>
+        <elevation>150</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JCJ//20210902020337.867382.14951" code="">
+          <start>1996-10-17T00:00:00.0000Z</start>
+          <latitude>27.095699</latitude>
+          <longitude>142.184494</longitude>
+          <elevation>150</elevation>
+          <stream publicID="Stream/20210902020337.867426.51" code="BHE" datalogger="Datalogger/20210902020337.867509.52" sensor="Sensor/20210902020337.867542.53">
+            <start>1996-10-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.868855.58" code="BHN" datalogger="Datalogger/20210902020337.868942.59" sensor="Sensor/20210902020337.868976.60">
+            <start>1996-10-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.869132.65" code="BHZ" datalogger="Datalogger/20210902020337.869215.66" sensor="Sensor/20210902020337.869248.67">
+            <start>1996-10-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JEW/20210902020337.869407.14970" code="JEW">
+        <start>1996-09-17T00:00:00.0000Z</start>
+        <description>Eniwa</description>
+        <latitude>42.84267</latitude>
+        <longitude>141.446167</longitude>
+        <elevation>185</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JEW//20210902020337.869466.14971" code="">
+          <start>1996-09-17T00:00:00.0000Z</start>
+          <latitude>42.84267</latitude>
+          <longitude>141.446167</longitude>
+          <elevation>185</elevation>
+          <stream publicID="Stream/20210902020337.869509.74" code="BHE" datalogger="Datalogger/20210902020337.86996.75" sensor="Sensor/20210902020337.870004.76">
+            <start>1996-09-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.870163.81" code="BHN" datalogger="Datalogger/20210902020337.870414.82" sensor="Sensor/20210902020337.870456.83">
+            <start>1996-09-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.871293.88" code="BHZ" datalogger="Datalogger/20210902020337.871393.89" sensor="Sensor/20210902020337.871427.90">
+            <start>1996-09-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JGF/20210902020337.871975.14990" code="JGF">
+        <start>1996-09-17T00:00:00.0000Z</start>
+        <description>Gifu Kurokawa</description>
+        <latitude>35.604</latitude>
+        <longitude>137.354172</longitude>
+        <elevation>580</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JGF//20210902020337.872037.14991" code="">
+          <start>1996-09-17T00:00:00.0000Z</start>
+          <latitude>35.604</latitude>
+          <longitude>137.354172</longitude>
+          <elevation>580</elevation>
+          <stream publicID="Stream/20210902020337.872109.97" code="BHE" datalogger="Datalogger/20210902020337.872402.98" sensor="Sensor/20210902020337.872487.99">
+            <start>1996-09-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.873184.104" code="BHN" datalogger="Datalogger/20210902020337.873268.105" sensor="Sensor/20210902020337.873301.106">
+            <start>1996-09-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.873458.111" code="BHZ" datalogger="Datalogger/20210902020337.87354.112" sensor="Sensor/20210902020337.873687.113">
+            <start>1996-09-17T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JHJ2/20210902020337.874304.15010" code="JHJ2">
+        <start>1996-10-07T00:00:00.0000Z</start>
+        <description>Hachijojima Island</description>
+        <latitude>33.115299</latitude>
+        <longitude>139.813797</longitude>
+        <elevation>70</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JHJ2//20210902020337.874363.15011" code="">
+          <start>1996-10-07T00:00:00.0000Z</start>
+          <latitude>33.115299</latitude>
+          <longitude>139.813797</longitude>
+          <elevation>70</elevation>
+          <stream publicID="Stream/20210902020337.874406.120" code="BHE" datalogger="Datalogger/20210902020337.874489.121" sensor="Sensor/20210902020337.874523.122">
+            <start>1996-10-07T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.875369.127" code="BHN" datalogger="Datalogger/20210902020337.875464.128" sensor="Sensor/20210902020337.875505.129">
+            <start>1996-10-07T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.87568.134" code="BHZ" datalogger="Datalogger/20210902020337.875785.135" sensor="Sensor/20210902020337.875825.136">
+            <start>1996-10-07T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JHS/20210902020337.876004.15030" code="JHS">
+        <start>1996-10-01T00:00:00.0000Z</start>
+        <description>Hiroshima Saijyo</description>
+        <latitude>35.001831</latitude>
+        <longitude>133.113663</longitude>
+        <elevation>470</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JHS//20210902020337.876088.15031" code="">
+          <start>1996-10-01T00:00:00.0000Z</start>
+          <latitude>35.001831</latitude>
+          <longitude>133.113663</longitude>
+          <elevation>470</elevation>
+          <stream publicID="Stream/20210902020337.876137.143" code="BHE" datalogger="Datalogger/20210902020337.876223.144" sensor="Sensor/20210902020337.876256.145">
+            <start>1996-10-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.876416.150" code="BHN" datalogger="Datalogger/20210902020337.8765.151" sensor="Sensor/20210902020337.876533.152">
+            <start>1996-10-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.876691.157" code="BHZ" datalogger="Datalogger/20210902020337.8768.158" sensor="Sensor/20210902020337.876835.159">
+            <start>1996-10-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JMM/20210902020337.877956.15070" code="JMM">
+        <start>1996-09-24T00:00:00.0000Z</start>
+        <description>Miyagi Marumori</description>
+        <latitude>37.868999</latitude>
+        <longitude>140.789673</longitude>
+        <elevation>100</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JMM//20210902020337.878015.15071" code="">
+          <start>1996-09-24T00:00:00.0000Z</start>
+          <latitude>37.868999</latitude>
+          <longitude>140.789673</longitude>
+          <elevation>100</elevation>
+          <stream publicID="Stream/20210902020337.878057.189" code="BHE" datalogger="Datalogger/20210902020337.878139.190" sensor="Sensor/20210902020337.878171.191">
+            <start>1996-09-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.878325.196" code="BHN" datalogger="Datalogger/20210902020337.878408.197" sensor="Sensor/20210902020337.878439.198">
+            <start>1996-09-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.878595.203" code="BHZ" datalogger="Datalogger/20210902020337.878678.204" sensor="Sensor/20210902020337.87871.205">
+            <start>1996-09-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JMN/20210902020337.878898.15090" code="JMN">
+        <start>1996-09-26T00:00:00.0000Z</start>
+        <description>Kochi Monobe</description>
+        <latitude>33.731499</latitude>
+        <longitude>133.876328</longitude>
+        <elevation>550</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JMN//20210902020337.878954.15091" code="">
+          <start>1996-09-26T00:00:00.0000Z</start>
+          <latitude>33.731499</latitude>
+          <longitude>133.876328</longitude>
+          <elevation>550</elevation>
+          <stream publicID="Stream/20210902020337.878996.212" code="BHE" datalogger="Datalogger/20210902020337.879078.213" sensor="Sensor/20210902020337.879111.214">
+            <start>1996-09-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.879268.219" code="BHN" datalogger="Datalogger/20210902020337.879351.220" sensor="Sensor/20210902020337.879383.221">
+            <start>1996-09-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.879539.226" code="BHZ" datalogger="Datalogger/20210902020337.879621.227" sensor="Sensor/20210902020337.879654.228">
+            <start>1996-09-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JMZ/20210902020337.87984.15110" code="JMZ">
+        <start>1996-10-24T00:00:00.0000Z</start>
+        <description>Minamidaitojima Island</description>
+        <latitude>25.81983</latitude>
+        <longitude>131.223663</longitude>
+        <elevation>50</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JMZ//20210902020337.879897.15111" code="">
+          <start>1996-10-24T00:00:00.0000Z</start>
+          <latitude>25.81983</latitude>
+          <longitude>131.223663</longitude>
+          <elevation>50</elevation>
+          <stream publicID="Stream/20210902020337.879939.235" code="BHE" datalogger="Datalogger/20210902020337.880022.236" sensor="Sensor/20210902020337.880159.237">
+            <start>1996-10-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.880319.242" code="BHN" datalogger="Datalogger/20210902020337.880401.243" sensor="Sensor/20210902020337.880434.244">
+            <start>1996-10-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.883648.249" code="BHZ" datalogger="Datalogger/20210902020337.883804.250" sensor="Sensor/20210902020337.883849.251">
+            <start>1996-10-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JNU/20210902020337.884036.15130" code="JNU">
+        <start>1996-10-16T00:00:00.0000Z</start>
+        <description>Oita Nakatsue</description>
+        <latitude>33.125</latitude>
+        <longitude>130.876694</longitude>
+        <elevation>540</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JNU//20210902020337.884123.15131" code="">
+          <start>1996-10-16T00:00:00.0000Z</start>
+          <latitude>33.125</latitude>
+          <longitude>130.876694</longitude>
+          <elevation>540</elevation>
+          <stream publicID="Stream/20210902020337.884169.258" code="BHE" datalogger="Datalogger/20210902020337.884252.259" sensor="Sensor/20210902020337.884285.260">
+            <start>1996-10-16T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.884486.265" code="BHN" datalogger="Datalogger/20210902020337.884569.266" sensor="Sensor/20210902020337.884601.267">
+            <start>1996-10-16T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.884785.272" code="BHZ" datalogger="Datalogger/20210902020337.884868.273" sensor="Sensor/20210902020337.88504.274">
+            <start>1996-10-16T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JOW/20210902020337.885219.15150" code="JOW">
+        <start>1996-10-06T00:00:00.0000Z</start>
+        <description>Okinawa Kunigami</description>
+        <latitude>26.836</latitude>
+        <longitude>128.272507</longitude>
+        <elevation>220</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JOW//20210902020337.885279.15151" code="">
+          <start>1996-10-06T00:00:00.0000Z</start>
+          <latitude>26.836</latitude>
+          <longitude>128.272507</longitude>
+          <elevation>220</elevation>
+          <stream publicID="Stream/20210902020337.885323.281" code="BHE" datalogger="Datalogger/20210902020337.88549.282" sensor="Sensor/20210902020337.885526.283">
+            <start>1996-10-06T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.885685.288" code="BHN" datalogger="Datalogger/20210902020337.885794.289" sensor="Sensor/20210902020337.88583.290">
+            <start>1996-10-06T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.885989.295" code="BHZ" datalogger="Datalogger/20210902020337.886071.296" sensor="Sensor/20210902020337.886103.297">
+            <start>1996-10-06T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JSD/20210902020337.88626.15170" code="JSD">
+        <start>1996-09-29T00:00:00.0000Z</start>
+        <description>Sado</description>
+        <latitude>38.040001</latitude>
+        <longitude>138.257172</longitude>
+        <elevation>146</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JSD//20210902020337.886319.15171" code="">
+          <start>1996-09-29T00:00:00.0000Z</start>
+          <latitude>38.040001</latitude>
+          <longitude>138.257172</longitude>
+          <elevation>146</elevation>
+          <stream publicID="Stream/20210902020337.886361.304" code="BHE" datalogger="Datalogger/20210902020337.886442.305" sensor="Sensor/20210902020337.886474.306">
+            <start>1996-09-29T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.886632.311" code="BHN" datalogger="Datalogger/20210902020337.886735.312" sensor="Sensor/20210902020337.886772.313">
+            <start>1996-09-29T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.886931.318" code="BHZ" datalogger="Datalogger/20210902020337.887014.319" sensor="Sensor/20210902020337.887046.320">
+            <start>1996-09-29T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JSG/20210902020337.887203.15190" code="JSG">
+        <start>1996-09-25T00:00:00.0000Z</start>
+        <description>Shizuoka Sagara</description>
+        <latitude>34.67767</latitude>
+        <longitude>138.182999</longitude>
+        <elevation>107</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JSG//20210902020337.88726.15191" code="">
+          <start>1996-09-25T00:00:00.0000Z</start>
+          <latitude>34.67767</latitude>
+          <longitude>138.182999</longitude>
+          <elevation>107</elevation>
+          <stream publicID="Stream/20210902020337.887301.327" code="BHE" datalogger="Datalogger/20210902020337.887383.328" sensor="Sensor/20210902020337.887415.329">
+            <start>1996-09-25T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.887572.334" code="BHN" datalogger="Datalogger/20210902020337.887654.335" sensor="Sensor/20210902020337.887686.336">
+            <start>1996-09-25T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.887873.341" code="BHZ" datalogger="Datalogger/20210902020337.887956.342" sensor="Sensor/20210902020337.887988.343">
+            <start>1996-09-25T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JSU/20210902020337.888194.15210" code="JSU">
+        <start>1996-09-18T00:00:00.0000Z</start>
+        <description>Kagoshima Suzuyama</description>
+        <latitude>31.509331</latitude>
+        <longitude>130.452667</longitude>
+        <elevation>400</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JSU//20210902020337.888251.15211" code="">
+          <start>1996-09-18T00:00:00.0000Z</start>
+          <latitude>31.509331</latitude>
+          <longitude>130.452667</longitude>
+          <elevation>400</elevation>
+          <stream publicID="Stream/20210902020337.888293.350" code="BHE" datalogger="Datalogger/20210902020337.888376.351" sensor="Sensor/20210902020337.888408.352">
+            <start>1996-09-18T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.888565.357" code="BHN" datalogger="Datalogger/20210902020337.888648.358" sensor="Sensor/20210902020337.88868.359">
+            <start>1996-09-18T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.889127.364" code="BHZ" datalogger="Datalogger/20210902020337.889211.365" sensor="Sensor/20210902020337.889245.366">
+            <start>1996-09-18T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JTM/20210902020337.889409.15230" code="JTM">
+        <start>1996-10-06T00:00:00.0000Z</start>
+        <description>Aomori Tenma</description>
+        <latitude>40.789501</latitude>
+        <longitude>141.064667</longitude>
+        <elevation>130</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JTM//20210902020337.889739.15231" code="">
+          <start>1996-10-06T00:00:00.0000Z</start>
+          <latitude>40.789501</latitude>
+          <longitude>141.064667</longitude>
+          <elevation>130</elevation>
+          <stream publicID="Stream/20210902020337.889791.373" code="BHE" datalogger="Datalogger/20210902020337.889876.374" sensor="Sensor/20210902020337.88991.375">
+            <start>1996-10-06T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.890075.380" code="BHN" datalogger="Datalogger/20210902020337.890157.381" sensor="Sensor/20210902020337.890189.382">
+            <start>1996-10-06T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.890345.387" code="BHZ" datalogger="Datalogger/20210902020337.890428.388" sensor="Sensor/20210902020337.89046.389">
+            <start>1996-10-06T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JTU/20210902020337.890621.15250" code="JTU">
+        <start>1996-09-26T00:00:00.0000Z</start>
+        <description>Tsushima Kamiagata</description>
+        <latitude>34.5275</latitude>
+        <longitude>129.396332</longitude>
+        <elevation>70</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JTU//20210902020337.890679.15251" code="">
+          <start>1996-09-26T00:00:00.0000Z</start>
+          <latitude>34.5275</latitude>
+          <longitude>129.396301</longitude>
+          <elevation>70</elevation>
+          <stream publicID="Stream/20210902020337.890746.396" code="BHE" datalogger="Datalogger/20210902020337.890832.397" sensor="Sensor/20210902020337.890865.398">
+            <start>1996-09-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.891023.403" code="BHN" datalogger="Datalogger/20210902020337.891105.404" sensor="Sensor/20210902020337.891138.405">
+            <start>1996-09-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.891294.410" code="BHZ" datalogger="Datalogger/20210902020337.891376.411" sensor="Sensor/20210902020337.891408.412">
+            <start>1996-09-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JWT/20210902020337.891567.15270" code="JWT">
+        <start>1996-09-18T00:00:00.0000Z</start>
+        <description>Kyoto Wachi</description>
+        <latitude>35.285671</latitude>
+        <longitude>135.398666</longitude>
+        <elevation>172</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JWT//20210902020337.891626.15271" code="">
+          <start>1996-09-18T00:00:00.0000Z</start>
+          <latitude>35.285671</latitude>
+          <longitude>135.398666</longitude>
+          <elevation>172</elevation>
+          <stream publicID="Stream/20210902020337.891668.419" code="BHE" datalogger="Datalogger/20210902020337.891777.420" sensor="Sensor/20210902020337.891812.421">
+            <start>1996-09-18T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.89197.426" code="BHN" datalogger="Datalogger/20210902020337.892084.427" sensor="Sensor/20210902020337.892118.428">
+            <start>1996-09-18T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.892278.433" code="BHZ" datalogger="Datalogger/20210902020337.892698.434" sensor="Sensor/20210902020337.892759.435">
+            <start>1996-09-18T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JYT/20210902020337.893049.15290" code="JYT">
+        <start>1996-09-05T00:00:00.0000Z</start>
+        <description>Ibaraki Yasato</description>
+        <latitude>36.230831</latitude>
+        <longitude>140.190674</longitude>
+        <elevation>31</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JYT//20210902020337.893118.15291" code="">
+          <start>1996-09-05T00:00:00.0000Z</start>
+          <latitude>36.230831</latitude>
+          <longitude>140.190674</longitude>
+          <elevation>31</elevation>
+          <stream publicID="Stream/20210902020337.89317.442" code="BHE" datalogger="Datalogger/20210902020337.893253.443" sensor="Sensor/20210902020337.893287.444">
+            <start>1996-09-05T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.893445.449" code="BHN" datalogger="Datalogger/20210902020337.893528.450" sensor="Sensor/20210902020337.893559.451">
+            <start>1996-09-05T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.893734.456" code="BHZ" datalogger="Datalogger/20210902020337.893821.457" sensor="Sensor/20210902020337.893853.458">
+            <start>1996-09-05T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/YOJ/20210902020337.894014.15310" code="YOJ">
+        <start>1996-10-14T00:00:00.0000Z</start>
+        <description>Yonagunijima Island</description>
+        <latitude>24.467199</latitude>
+        <longitude>123.011299</longitude>
+        <elevation>32</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/YOJ//20210902020337.894071.15311" code="">
+          <start>1996-10-14T00:00:00.0000Z</start>
+          <latitude>24.467199</latitude>
+          <longitude>123.011299</longitude>
+          <elevation>32</elevation>
+          <stream publicID="Stream/20210902020337.894113.465" code="BHE" datalogger="Datalogger/20210902020337.894195.466" sensor="Sensor/20210902020337.894228.467">
+            <start>1996-10-14T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.894792.472" code="BHN" datalogger="Datalogger/20210902020337.894876.473" sensor="Sensor/20210902020337.89491.474">
+            <start>1996-10-14T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>30</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.895071.479" code="BHZ" datalogger="Datalogger/20210902020337.895154.480" sensor="Sensor/20210902020337.895186.481">
+            <start>1996-10-14T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/JP/JKA/20210902020337.87701.15050" code="JKA">
+        <start>1994-09-30T00:00:00.0000Z</start>
+        <description>Kamikawa Asahi</description>
+        <latitude>44.118801</latitude>
+        <longitude>142.593002</longitude>
+        <elevation>220</elevation>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/JP/JKA//20210902020337.877069.15051" code="">
+          <start>1996-09-24T00:00:00.0000Z</start>
+          <latitude>44.118801</latitude>
+          <longitude>142.593002</longitude>
+          <elevation>220</elevation>
+          <stream publicID="Stream/20210902020337.877111.166" code="BHE" datalogger="Datalogger/20210902020337.877194.167" sensor="Sensor/20210902020337.877226.168">
+            <start>1996-09-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.877383.173" code="BHN" datalogger="Datalogger/20210902020337.877465.174" sensor="Sensor/20210902020337.877498.175">
+            <start>1996-09-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+          <stream publicID="Stream/20210902020337.877653.180" code="BHZ" datalogger="Datalogger/20210902020337.877759.181" sensor="Sensor/20210902020337.877795.182">
+            <start>1996-09-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1000000000</gain>
+            <gainFrequency>8</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <restricted>false</restricted>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

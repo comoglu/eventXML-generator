@@ -1,0 +1,67 @@
+#Network|Description|StartTime|EndTime|TotalStations
+2O|Beetaloo Seismic Monitoring Project|2021-08-17T00:00:00|2025-12-31T00:28:28|10
+AF|AfricaArray ()|2004-01-01T00:00:00||5
+AI|Antarctic Seismographic Argentinean Italian Network (ASAIN)|1992-01-01T00:00:00||4
+AK|Alaska Regional Network ()|1987-01-01T00:00:00||20
+AM|RASPBERRY SHAKE NETWORK|2016-01-01T00:00:00||367
+AT|National Tsunami Warning Center Alaska Seismic Network (AT)|1967-01-01T00:00:00||5
+AU|Australian National Seismograph Network (ANSN)|1994-01-01T00:00:00||240
+BK|Berkeley Digital Seismograph Network (BDSN)|1980-01-01T00:00:00||2
+BL|Brazilian Lithospheric Seismic Project (BLSP)|1988-01-01T00:00:00||3
+BR|UnB|1980-01-01T00:00:00||6
+C|Chilean National Seismic Network ()|1991-01-01T00:00:00||3
+C1|Red Sismologica Nacional (RSN)|2012-01-01T00:00:00||9
+CM|Red Sismologica Nacional de Colombia (CM)|1993-01-01T00:00:00||7
+CN|Canadian National Seismograph Network (CNSN)|1980-01-01T00:00:00||19
+CU|Caribbean USGS Network ()|2006-01-01T00:00:00||1
+EC|Ecuador Seismic Network ()|2002-01-01T00:00:00||4
+EI|Irish National Seismic Network (INSN)|1993-01-01T00:00:00||1
+FJ|Fiji National Seismic Network|1980-01-01T00:00:00||6
+G|GEOSCOPE - French Global Network of Seismological Broadband Stations|1982-01-01T00:00:00||55
+GB|Great Britain Seismograph Network ()|1970-01-01T00:00:00||1
+GE|GEOFON Program, GFZ Potsdam, Germany|1993-01-01T00:00:00||63
+GI|Red Sismologica Nacional- Guatemala ()|2001-01-01T00:00:00||3
+GT|Global Telemetered Seismograph Network (USAF/USGS) (GTSN)|1993-01-01T00:00:00||8
+HK|Hong Kong Seismograph Network ()|2009-01-01T00:00:00||1
+HV|Hawaiian Volcano Observatory Network (HVO)|1956-01-01T00:00:00||3
+IA|BMG-Net, Indonesia (IA-Net)|1980-01-01T00:00:00||60
+IC|New China Digital Seismograph Network (NCDSN)|1992-01-01T00:00:00||18
+II|(GSN) Global Seismograph Network (IRIS/IDA)|1986-01-01T00:00:00||55
+IM|IMS network|1965-10-01T00:00:00||111
+IN|National Seismic Network of India ()|2000-01-01T00:00:00||3
+IO|International OGS Network (ION)|2014-01-01T00:00:00||1
+IU|Global Seismograph Network - IRIS/USGS (GSN)|1988-01-01T00:00:00||209
+JP|Japan Meteorological Agency Seismic Network ()|1994-01-01T00:00:00||21
+KG|Korean Seismic Network - KIGAM ()|1997-01-01T00:00:00||1
+KZ|Kazakhstan Network (KZNET)|1994-01-01T00:00:00||3
+M8|Australian Semi-Permanent Support Network (MATE)|2024-01-10T00:00:00||5
+MI|USGS Northern Mariana Islands Network ()|2000-01-01T00:00:00||3
+MM|Myanmar National Seismic Network|2016-01-01T00:00:00||9
+MN|Mediterranean Very Broadband Seismographic Network (MedNet)|1988-01-01T00:00:00||5
+MX|Mexican National Seismic Network ()|1970-01-01T00:00:00||5
+MY|Malaysian National Seismic Network|1980-01-01T00:00:00||19
+ND|New-Caledonia broadband and accelerometric permanent networks|2010-01-01T00:00:00||10
+NG|Papua New Guinea Seismic Network|1980-01-01T00:00:00||10
+NK|Nepal Kathmandu (NK)|1978-01-01T00:00:00||1
+NN|Nevada Seismic Network ()|1971-01-01T00:00:00||2
+NO|Norwegian Seismic Array Network (NORSAR)|1971-01-01T00:00:00||1
+NZ|New Zealand National Seismograph Network|1916-01-01T00:00:00||182
+ON|Rede SismogrÃ¡fica do Sul e do Sudeste (RSIS)|2011-01-01T00:00:00||2
+OV|Observatorio VulcanolÃ³gico y SismolÃ³gico de Costa Rica (OVSICORI)|1984-01-01T00:00:00||3
+PB|Plate Boundary Observatory Borehole Seismic Network (PBO)|2004-01-01T00:00:00||2
+PL|Polish Seismological Network ()|1990-01-01T00:00:00||1
+PM|IPMA|1980-01-01T00:00:00||5
+PS|Pacific21 (ERI/STA)|1989-01-01T00:00:00||2
+PT|Pacific Tsunami Warning Seismic System ()|1965-01-01T00:00:00||1
+QZ|Seismic network of the Seismological Experience and Methodology Expedition CS MES RK (SEME)|2003-01-01T00:00:00||5
+RM|Regional Integrated Multi-Hazard Early Warning System (RIMES)|2008-01-01T00:00:00||3
+S1|Australian Seismometers in Schools (AUSiS)|2011-09-01T02:22:00||50
+SW|Solomon Islands National Seismic Network|1980-01-01T00:00:00||6
+TC|Red SismolÃ³gica Nacional de Costa Rica (RSN: UCR-ICE)|1973-01-01T00:00:00||2
+TM|Thai Seismic Monitoring Network ()|2008-01-01T00:00:00||18
+TW|Broadband Array in Taiwan for Seismology (BATS)|1994-01-01T00:00:00||7
+US|United States National Seismic Network (USNSN)|1990-01-01T00:00:00||13
+UW|Pacific Northwest Seismic Network (PNSN)|1963-01-01T00:00:00||1
+VU|Vanuatu National Seismic Network|1980-01-01T00:00:00||16
+YC|Tonga Temporary Seismic Monitoring Network|2022-03-08T03:02:07|2027-12-31T00:00:00|8
+YW|Muswellbrook Temporary Network|2021-01-01T03:31:40||2

@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.12" version="0.12">
+  <Inventory>
+    <sensor publicID="Sensor/20200623233752.723121.8" name="SW.ALEG.10HHE.2018.274.00.00.00" response="ResponsePAZ/20200623233752.723242.9">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.724154.13" name="SW.ALEG.10HHN.2018.274.00.00.00" response="ResponsePAZ/20200623233752.724192.14">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.724837.18" name="SW.ALEG.10HHZ.2018.274.00.00.00" response="ResponsePAZ/20200623233752.724868.19">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.725777.25" name="SW.HURO.10HHE.2018.283.00.00.00" response="ResponsePAZ/20200623233752.725807.26">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.726498.30" name="SW.HURO.10HHN.2018.283.00.00.00" response="ResponsePAZ/20200623233752.726529.31">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.72717.35" name="SW.HURO.10HHZ.2018.283.00.00.00" response="ResponsePAZ/20200623233752.727199.36">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.727978.42" name="SW.LUES.10HHE.2018.283.00.00.00" response="ResponsePAZ/20200623233752.728004.43">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.728639.47" name="SW.LUES.10HHN.2018.283.00.00.00" response="ResponsePAZ/20200623233752.728673.48">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.72931.52" name="SW.LUES.10HHZ.2018.283.00.00.00" response="ResponsePAZ/20200623233752.729343.53">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.730401.59" name="SW.NGOA.10HHE.2018.283.00.00.00" response="ResponsePAZ/20200623233752.73043.60">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.731039.64" name="SW.NGOA.10HHN.2018.283.00.00.00" response="ResponsePAZ/20200623233752.731065.65">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.731703.69" name="SW.NGOA.10HHZ.2018.283.00.00.00" response="ResponsePAZ/20200623233752.731731.70">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.732515.76" name="SW.SAVO.10HHE.2018.283.00.00.00" response="ResponsePAZ/20200623233752.732542.77">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.73325.81" name="SW.SAVO.10HHN.2018.283.00.00.00" response="ResponsePAZ/20200623233752.733281.82">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.733894.86" name="SW.SAVO.10HHZ.2018.283.00.00.00" response="ResponsePAZ/20200623233752.733921.87">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.734719.93" name="SW.TATA.10HHE.2018.283.00.00.00" response="ResponsePAZ/20200623233752.734746.94">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.735383.98" name="SW.TATA.10HHN.2018.283.00.00.00" response="ResponsePAZ/20200623233752.735415.99">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20200623233752.736021.103" name="SW.TATA.10HHZ.2018.283.00.00.00" response="ResponsePAZ/20200623233752.736048.104">
+      <description>unknown</description>
+      <model>unknown</model>
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters per Second"}</remark>
+    </sensor>
+    <datalogger publicID="Datalogger/20200623233752.722284.6" name="SW.ALEG.10HHE.2018.274.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.72259.7</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.72379.11" name="SW.ALEG.10HHN.2018.274.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.723879.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.724512.16" name="SW.ALEG.10HHZ.2018.274.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.724584.17</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.725433.23" name="SW.HURO.10HHE.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.725503.24</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.726163.28" name="SW.HURO.10HHN.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.726245.29</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.726848.33" name="SW.HURO.10HHZ.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.726916.34</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.727674.40" name="SW.LUES.10HHE.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.727744.41</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.728327.45" name="SW.LUES.10HHN.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.728395.46</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.728972.50" name="SW.LUES.10HHZ.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.729042.51</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.730054.57" name="SW.NGOA.10HHE.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.730141.58</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.73074.62" name="SW.NGOA.10HHN.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.730808.63</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.731391.67" name="SW.NGOA.10HHZ.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.731458.68</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.732214.74" name="SW.SAVO.10HHE.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.732282.75</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.732881.79" name="SW.SAVO.10HHN.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.732958.80</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.733585.84" name="SW.SAVO.10HHZ.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.733659.85</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.734405.91" name="SW.TATA.10HHE.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.734472.92</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.735043.96" name="SW.TATA.10HHN.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.735126.97</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20200623233752.735718.101" name="SW.TATA.10HHZ.2018.283.00.00.00">
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20200623233752.735786.102</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.723242.9" name="SW.ALEG.10HHE.2018.274.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.724192.14" name="SW.ALEG.10HHN.2018.274.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.724868.19" name="SW.ALEG.10HHZ.2018.274.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.725807.26" name="SW.HURO.10HHE.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.726529.31" name="SW.HURO.10HHN.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.727199.36" name="SW.HURO.10HHZ.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.728004.43" name="SW.LUES.10HHE.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.728673.48" name="SW.LUES.10HHN.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.729343.53" name="SW.LUES.10HHZ.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.73043.60" name="SW.NGOA.10HHE.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.731065.65" name="SW.NGOA.10HHN.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.731731.70" name="SW.NGOA.10HHZ.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.732542.77" name="SW.SAVO.10HHE.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.733281.82" name="SW.SAVO.10HHN.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.733921.87" name="SW.SAVO.10HHZ.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.734746.94" name="SW.TATA.10HHE.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.735415.99" name="SW.TATA.10HHN.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20200623233752.736048.104" name="SW.TATA.10HHZ.2018.283.00.00.00">
+      <type>A</type>
+      <gain>1202.5</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>8.31871e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-31.63,0) (-160,0) (-350,0) (-3177,0)</zeros>
+      <poles>(-0.036614,0.037059) (-0.036614,-0.037059) (-32.55,0) (-142,0) (-364,404) (-364,-404) (-1260,0) (-4900,5204) (-4900,-5204) (-7100,1700) (-7100,-1700)</poles>
+    </responsePAZ>
+    <responseFIR publicID="ResponseFIR/20200623233752.72259.7" name="SW.ALEG.10.HHE.2018.274.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.723879.12" name="SW.ALEG.10.HHN.2018.274.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.724584.17" name="SW.ALEG.10.HHZ.2018.274.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.725503.24" name="SW.HURO.10.HHE.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.726245.29" name="SW.HURO.10.HHN.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.726916.34" name="SW.HURO.10.HHZ.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.727744.41" name="SW.LUES.10.HHE.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.728395.46" name="SW.LUES.10.HHN.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.729042.51" name="SW.LUES.10.HHZ.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.730141.58" name="SW.NGOA.10.HHE.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.730808.63" name="SW.NGOA.10.HHN.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.731458.68" name="SW.NGOA.10.HHZ.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.732282.75" name="SW.SAVO.10.HHE.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.732958.80" name="SW.SAVO.10.HHN.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.733659.85" name="SW.SAVO.10.HHZ.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.734472.92" name="SW.TATA.10.HHE.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.735126.97" name="SW.TATA.10.HHN.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20200623233752.735786.102" name="SW.TATA.10.HHZ.2018.283.00.00.00.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>71</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>4.93305e-17 2.19269e-10 5.5255e-08 1.52515e-06 7.71668e-05 0.00440098 0.0623035 0.313162 0.609444 0.261754 -0.343399 0.00960486 0.213595 -0.211189 0.0808518 0.0570094 -0.131788 0.133998 -0.082974 0.0136602 0.04432 -0.0748276 0.0755232 -0.0540381 0.0224854 0.00733085 -0.0276292 0.0350196 -0.0318696 0.0205158 -0.00880971 -0.00201974 0.0090517 -0.0108775 0.00914406 -0.00590073 0.00266829 -0.000261751 -0.00109833 0.00155774 -0.00142785 0.00102524 -0.000584649 0.000236698 -2.26985e-05 -7.30962e-05 9.0795e-05 -7.07905e-05 4.2078e-05 -1.90476e-05 6.0835e-06 -5.39609e-07 -4.7879e-07 2.8784e-08 1.69669e-07 -1.38519e-07 6.27105e-08 6.82038e-11 -8.00017e-09 -4.53371e-09 -1.19163e-09 4.50304e-09 7.52368e-10 -7.89445e-10 -4.7825e-10 -4.02219e-12 5.49924e-11 2.17637e-11 -9.90439e-13 -1.70236e-13 -9.9507e-15</coefficients>
+    </responseFIR>
+    <network publicID="Network/20200623233752.720936.2" code="SW">
+      <start>1980-01-01T00:00:00.0000Z</start>
+      <description>Solomon Islands National Seismic Network</description>
+      <institutions>Geology Division Seismology &amp; Volcanology Section</institutions>
+      <region>Solomon Islands</region>
+      <type>BB</type>
+      <netClass>p</netClass>
+      <restricted>true</restricted>
+      <shared>false</shared>
+      <station publicID="Station/20200623233752.721357.3" code="ALEG">
+        <start>2018-10-01T00:00:00.0000Z</start>
+        <description>Aligegeo, Malaita, Solomon Islands</description>
+        <latitude>-8.754069</latitude>
+        <longitude>160.695111</longitude>
+        <elevation>100</elevation>
+        <place>Aligegeo, Malaita, Solomon Islands</place>
+        <country>Solomon Islands</country>
+        <affiliation>Solomon Islands National Seismic Network</affiliation>
+        <type>BB</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation/20200623233752.721803.4" code="10">
+          <start>2018-10-01T00:00:00.0000Z</start>
+          <latitude>-8.754069</latitude>
+          <longitude>160.695111</longitude>
+          <elevation>0</elevation>
+          <stream publicID="Stream/20200623233752.721988.5" code="HHE" datalogger="Datalogger/20200623233752.722284.6" sensor="Sensor/20200623233752.723121.8">
+            <start>2018-10-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.723692.10" code="HHN" datalogger="Datalogger/20200623233752.72379.11" sensor="Sensor/20200623233752.724154.13">
+            <start>2018-10-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.724438.15" code="HHZ" datalogger="Datalogger/20200623233752.724512.16" sensor="Sensor/20200623233752.724837.18">
+            <start>2018-10-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/20200623233752.725047.20" code="HURO">
+        <start>2018-10-10T00:00:00.0000Z</start>
+        <description>Kirakira, Makira, Solomon Islands</description>
+        <latitude>-10.465299</latitude>
+        <longitude>161.902609</longitude>
+        <elevation>100</elevation>
+        <place>Kirakira, Makira, Solomon Islands</place>
+        <country>Solomon Islands</country>
+        <affiliation>Solomon Islands National Seismic Network</affiliation>
+        <type>BB</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation/20200623233752.725296.21" code="10">
+          <start>2018-10-10T00:00:00.0000Z</start>
+          <latitude>-10.465299</latitude>
+          <longitude>161.902609</longitude>
+          <elevation>100</elevation>
+          <stream publicID="Stream/20200623233752.725353.22" code="HHE" datalogger="Datalogger/20200623233752.725433.23" sensor="Sensor/20200623233752.725777.25">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.726063.27" code="HHN" datalogger="Datalogger/20200623233752.726163.28" sensor="Sensor/20200623233752.726498.30">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.726774.32" code="HHZ" datalogger="Datalogger/20200623233752.726848.33" sensor="Sensor/20200623233752.72717.35">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/20200623233752.72735.37" code="LUES">
+        <start>2018-10-10T00:00:00.0000Z</start>
+        <description>Luesalemba, Temotu, Solomon islands</description>
+        <latitude>-10.661681</latitude>
+        <longitude>165.913769</longitude>
+        <elevation>100</elevation>
+        <place>Luesalemba, Temotu, Solomon islands</place>
+        <country>Solomon islands</country>
+        <affiliation>Solomon Islands National Seismic Network</affiliation>
+        <type>BB</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation/20200623233752.727547.38" code="10">
+          <start>2018-10-10T00:00:00.0000Z</start>
+          <latitude>-10.661681</latitude>
+          <longitude>165.913769</longitude>
+          <elevation>100</elevation>
+          <stream publicID="Stream/20200623233752.727596.39" code="HHE" datalogger="Datalogger/20200623233752.727674.40" sensor="Sensor/20200623233752.727978.42">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.728255.44" code="HHN" datalogger="Datalogger/20200623233752.728327.45" sensor="Sensor/20200623233752.728639.47">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.7289.49" code="HHZ" datalogger="Datalogger/20200623233752.728972.50" sensor="Sensor/20200623233752.72931.52">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/20200623233752.729714.54" code="NGOA">
+        <start>2018-10-10T00:00:00.0000Z</start>
+        <description>Tingoa, Renbell, Solomon Islands</description>
+        <latitude>-11.554739</latitude>
+        <longitude>160.062373</longitude>
+        <elevation>100</elevation>
+        <place>Tingoa, Renbell, Solomon Islands</place>
+        <country>Solomon Islands</country>
+        <affiliation>Solomon Islands National Seismic Network</affiliation>
+        <type>BB</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation/20200623233752.729919.55" code="10">
+          <start>2018-10-10T00:00:00.0000Z</start>
+          <latitude>-11.554739</latitude>
+          <longitude>160.062373</longitude>
+          <elevation>100</elevation>
+          <stream publicID="Stream/20200623233752.729976.56" code="HHE" datalogger="Datalogger/20200623233752.730054.57" sensor="Sensor/20200623233752.730401.59">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.730666.61" code="HHN" datalogger="Datalogger/20200623233752.73074.62" sensor="Sensor/20200623233752.731039.64">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.731317.66" code="HHZ" datalogger="Datalogger/20200623233752.731391.67" sensor="Sensor/20200623233752.731703.69">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/20200623233752.734069.88" code="TATA">
+        <start>2018-10-10T00:00:00.0000Z</start>
+        <description>Tatamba, Isabel, Solomon Islands</description>
+        <latitude>-8.386942</latitude>
+        <longitude>159.804199</longitude>
+        <elevation>100</elevation>
+        <place>Tatamba, Isabel, Solomon Islands</place>
+        <country>Solomon Islands</country>
+        <affiliation>Solomon Islands National Seismic Network</affiliation>
+        <type>BB</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation/20200623233752.734284.89" code="10">
+          <start>2018-10-10T00:00:00.0000Z</start>
+          <latitude>-8.386942</latitude>
+          <longitude>159.804199</longitude>
+          <elevation>100</elevation>
+          <stream publicID="Stream/20200623233752.734334.90" code="HHE" datalogger="Datalogger/20200623233752.734405.91" sensor="Sensor/20200623233752.734719.93">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.734972.95" code="HHN" datalogger="Datalogger/20200623233752.735043.96" sensor="Sensor/20200623233752.735383.98">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.735646.100" code="HHZ" datalogger="Datalogger/20200623233752.735718.101" sensor="Sensor/20200623233752.736021.103">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/20200623233752.73188.71" code="SAVO">
+        <start>2018-10-10T00:00:00.0000Z</start>
+        <description>Savo island, Solomon Islands</description>
+        <latitude>-9.148678</latitude>
+        <longitude>159.813412</longitude>
+        <elevation>100</elevation>
+        <place>Savo island, Solomon Islands</place>
+        <country>Solomon Islands</country>
+        <affiliation>Solomon Islands National Seismic Network</affiliation>
+        <type>BB</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation/20200623233752.732087.72" code="10">
+          <start>2018-10-10T00:00:00.0000Z</start>
+          <latitude>-9.148678</latitude>
+          <longitude>159.813412</longitude>
+          <elevation>100</elevation>
+          <stream publicID="Stream/20200623233752.732137.73" code="HHE" datalogger="Datalogger/20200623233752.732214.74" sensor="Sensor/20200623233752.732515.76">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.732788.78" code="HHN" datalogger="Datalogger/20200623233752.732881.79" sensor="Sensor/20200623233752.73325.81">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream publicID="Stream/20200623233752.733511.83" code="HHZ" datalogger="Datalogger/20200623233752.733585.84" sensor="Sensor/20200623233752.733894.86">
+            <start>2018-10-10T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>504365000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>
