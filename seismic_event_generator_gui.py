@@ -342,7 +342,7 @@ class SeismicEventGeneratorGUI(QMainWindow):
         process.readyReadStandardOutput.connect(self.handle_stdout)
         process.readyReadStandardError.connect(self.handle_stderr)
         process.finished.connect(self.process_finished)
-        process.start("python", ["seismic_event_generator.py"])
+        process.start("python", ["seismic_event_generator-v01.py"])
 
     def handle_stdout(self):
         process = self.sender()
