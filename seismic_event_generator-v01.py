@@ -174,19 +174,21 @@ def create_focal_mechanism(strike1, dip1, rake1, strike2, dip2, rake2, scalar_mo
     fm.creation_info = CreationInfo(agency_id=config['Agency']['id'], author=f"{config['Agency']['author_prefix']}autofm@testtest", creation_time=UTCDateTime())
     return fm, mw
 
-def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, initial_strike, initial_dip, initial_rake, num_mechanisms=3, variation=15):
+def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, initial_strike, initial_dip, initial_rake, num_mechanisms=3, variation=15, mww_magnitudes=None):
     focal_mechanisms = []
     magnitudes = []
+
+    # Ensure we have enough Mww magnitudes
+    if mww_magnitudes is None or len(mww_magnitudes) < num_mechanisms:
+        print(f"Warning: Not enough Mww magnitudes specified. Using default calculation for missing values.")
+        if mww_magnitudes is None:
+            mww_magnitudes = []
+        mww_magnitudes.extend([None] * (num_mechanisms - len(mww_magnitudes)))
 
     for i in range(num_mechanisms):
         print(f"Creating focal mechanism {i+1}/{num_mechanisms}")
 
         # Create origin (existing code remains the same)
-        origin = Origin()
-        origin.resource_id = f"origin/focalmechanism/{event_id}/{i}"
-
-
-        # Create origin (existing code)
         origin = Origin()
         origin.resource_id = create_resource_id(f"origin/focalmechanism/{event_id}/{i}")
         origin.time = time + np.random.normal(0, 1)
@@ -196,8 +198,8 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
         origin.depth_type = "from moment tensor inversion"
         origin.method_id = "FocalMechanism"
         origin.earth_model_id = "gemini-prem"
-        
-        # Create origin quality
+
+        # Create origin quality (existing code remains the same)
         origin.quality = OriginQuality(
             used_phase_count=np.random.randint(5, 15),
             associated_station_count=np.random.randint(50, 80),
@@ -206,37 +208,36 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
             maximum_distance=np.random.uniform(30, 50),
             minimum_distance=np.random.uniform(1, 10)
         )
-        
+
         origin.origin_type = "hypocenter"
         origin.creation_info = CreationInfo(
             agency_id="GA",
             author="scautomt@testtest",
             creation_time=UTCDateTime()
         )
-        print(f"Created origin with resource_id: {origin.resource_id}")
-        
-        # Create focal mechanism
+
+        # Create focal mechanism (existing code remains the same)
         fm = FocalMechanism()
         fm.resource_id = create_resource_id(f"focalmechanism/{event_id}/{i}")
-        
+
         # Add random variations to the initial focal mechanism
         strike1 = initial_strike + np.random.uniform(-variation, variation)
         dip1 = initial_dip + np.random.uniform(-variation/2, variation/2)
         rake1 = initial_rake + np.random.uniform(-variation, variation)
-        
+
         # Ensure values are within valid ranges
         strike1 = strike1 % 360
         dip1 = max(0, min(90, dip1))
         rake1 = max(-180, min(180, rake1))
-        
+
         # Calculate the auxiliary plane
         strike2, dip2, rake2 = calculate_auxiliary_plane(strike1, dip1, rake1)
-        
+
         # Create nodal planes
         np1 = NodalPlane(strike=strike1, dip=dip1, rake=rake1)
         np2 = NodalPlane(strike=strike2, dip=dip2, rake=rake2)
         fm.nodal_planes = NodalPlanes(nodal_plane_1=np1, nodal_plane_2=np2)
-        
+
         # Calculate and set principal axes
         t_axis, p_axis, n_axis = calculate_principal_axes(strike1, dip1, rake1)
         fm.principal_axes = PrincipalAxes(
@@ -244,19 +245,21 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
             p_axis=Axis(azimuth=p_axis[0], plunge=p_axis[1], length=-1),
             n_axis=Axis(azimuth=n_axis[0], plunge=n_axis[1], length=0)
         )
-        
+
+        # Use the specified Mww magnitude if available, otherwise calculate it
+        # Use the specified Mww magnitude if available, otherwise calculate it
+        if mww_magnitudes[i] is not None:
+            mw = mww_magnitudes[i]
+            scalar_moment = 10**(1.5 * mw + 9.1)
+        else:
+            mw = (2/3) * (np.log10(scalar_moment) - 9.1)
+
         # Create moment tensor
         mt = create_moment_tensor(scalar_moment, strike1, dip1, rake1, f"{event_id}/{i}")
         fm.moment_tensor = mt
-        
+
         # Link moment tensor to the origin
         fm.moment_tensor.derived_origin_id = origin.resource_id
-
-        print(f"Created focal mechanism with resource_id: {fm.resource_id}")
-        print(f"Linked moment tensor to origin: {origin.resource_id}")
-
-        # Calculate Mw from scalar moment
-        mw = (2/3) * (np.log10(scalar_moment) - 9.1)
 
         # Create Mw magnitude
         mag_mw = create_magnitude(mw, "Mw", origin.resource_id, "Moment magnitude from focal mechanism", origin.quality.used_station_count, event_id, len(magnitudes) + i*2)
@@ -269,18 +272,16 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
         mag_mw.creation_info = origin.creation_info
         mag_mw.resource_id = create_resource_id(f"magnitude/mw/{event_id}/{i}")
 
+        # Create Mww magnitude
         mag_mww = create_magnitude(mw, "Mww", origin.resource_id, "W-phase moment magnitude", origin.quality.used_station_count, event_id, len(magnitudes) + i*2 + 1)
-
         mag_mww.mag = mw
         mag_mww.magnitude_type = "Mww"
         mag_mww.origin_id = origin.resource_id
         mag_mww.method_id = create_resource_id("method/wphase")
-
         mag_mww.station_count = origin.quality.used_station_count
         mag_mww.azimuthal_gap = origin.quality.azimuthal_gap
         mag_mww.creation_info = origin.creation_info
         mag_mww.resource_id = create_resource_id(f"magnitude/mww/{event_id}/{i}")
-
 
         fm.creation_info = origin.creation_info
 
@@ -289,10 +290,6 @@ def create_focal_mechanisms(lat, lon, depth, time, scalar_moment, event_id, init
 
         # Associate the origin with this focal mechanism
         fm.triggering_origin_id = origin.resource_id
-
-        print(f"Created Mw magnitude: {mag_mw.mag}, associated with origin: {mag_mw.origin_id}")
-        print(f"Created Mww magnitude: {mag_mww.mag}, associated with origin: {mag_mww.origin_id}")
-
 
         # Explicitly link the Mww magnitude to the focal mechanism's moment tensor
         fm.moment_tensor.moment_magnitude_id = mag_mww.resource_id
@@ -458,10 +455,10 @@ def calculate_azimuth(lat1, lon1, lat2, lon2):
     azimuth = np.degrees(np.arctan2(y, x))
     return (azimuth + 360) % 360
 
-def create_synthetic_event_with_multiple_origins(lat, lon, depth, initial_time, stations, initial_magnitudes, focal_mechanism):
+def create_synthetic_event_with_multiple_origins(lat, lon, depth, initial_time, stations, initial_magnitudes, focal_mechanism, mww_magnitudes):
     event = Event()
     event.event_type = "earthquake"
-    
+
     # Generate the event ID
     agency_id = config['Agency']['id_lowercase']
     event_id = generate_event_id(agency_id, initial_time.datetime)
@@ -496,7 +493,7 @@ def create_synthetic_event_with_multiple_origins(lat, lon, depth, initial_time, 
             focal_mechanisms_with_origins, mw_mww_magnitudes = create_focal_mechanisms(
                 lat, lon, depth, current_time, scalar_moment, event_id,
                 focal_mechanism['strike1'], focal_mechanism['dip1'], focal_mechanism['rake1'],
-                num_mechanisms=3
+                num_mechanisms=3, mww_magnitudes=mww_magnitudes
             )
 
             print(f"Created {len(focal_mechanisms_with_origins)} focal mechanisms and {len(mw_mww_magnitudes)} magnitudes (Mw and Mww)")
@@ -621,12 +618,13 @@ def calculate_azimuthal_gap(stations):
     gaps = np.append(gaps, 360 + azimuths[0] - azimuths[-1])
     return np.max(gaps)
 
-def generate_synthetic_catalog_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism):
-    event = create_synthetic_event_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism)
+def generate_synthetic_catalog_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism, mww_magnitudes):
+    event = create_synthetic_event_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism, mww_magnitudes)
     catalog = Catalog([event])
     catalog.resource_id = create_resource_id("catalog/synthetic")
     catalog.creation_info = CreationInfo(agency_id="GA", author="ObsPy QuakeML Generator", creation_time=UTCDateTime())
     return catalog, event
+
 
 def main():
     # Event parameters
@@ -634,30 +632,33 @@ def main():
     lon = get_config_float('Event', 'longitude', 125.88)
     depth = get_config_float('Event', 'depth', 10)
     time = UTCDateTime(config['Event']['time']) if config['Event']['time'] != 'now' else UTCDateTime.now()
-    
+
     # Specify magnitudes and focal mechanism
     magnitudes = {k: get_config_float('Magnitudes', k, 0) for k in config['Magnitudes']}
     focal_mechanism = {
         f"{key}{i}": get_config_float('FocalMechanism', f'{key}{i}', 0)
         for key in ['strike', 'dip', 'rake'] for i in [1, 2]
     }
-    
+
     # Configuration for station filtering
     inventory_path = config['Inventory']['path']
     min_distance = get_config_float('Inventory', 'min_distance', 0)
     max_distance = get_config_float('Inventory', 'max_distance', 50)
-    
+
     # Read inventory and filter stations
     inventory = read_inventory(inventory_path)
     stations = filter_stations(inventory, lat, lon, min_distance, max_distance)
-    
+
     if not stations:
         print(f"Error: No stations selected after filtering. Check criteria: min_distance={min_distance}, max_distance={max_distance}")
         sys.exit(1)
-    
+
+    # Read Mww magnitudes from config
+    mww_magnitudes = [float(m.strip()) for m in config['FocalMechanism'].get('mww_magnitudes', '').split(',') if m.strip()]
+
     # Generate catalog with multiple origins
-    catalog, event = generate_synthetic_catalog_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism)
-    
+    catalog, event = generate_synthetic_catalog_with_multiple_origins(lat, lon, depth, time, stations, magnitudes, focal_mechanism, mww_magnitudes)
+
     # Write to file
     output_file = "_synthetic_event_multiple_origins.xml"
     catalog.write(output_file, format="SC3ML")
